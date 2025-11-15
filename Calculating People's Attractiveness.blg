@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/Homebrew)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Calculating People's Attractiveness.aux
+The style file: unsrt.bst
+Database file #1: refs.bib
+Warning--empty journal in 2017multimodalmachinelearningsurvey
+Warning--empty journal in zadeh2017tensorfusionnetworkmultimodal
+Warning--empty journal in zhao2023swr
+You've used 15 entries,
+            1791 wiz_defined-function locations,
+            537 strings with 6341 characters,
+and the built_in function-call counts, 3653 in all, are:
+= -- 325
+> -- 173
+< -- 2
++ -- 64
+- -- 49
+* -- 267
+:= -- 591
+add.period$ -- 46
+call.type$ -- 15
+change.case$ -- 15
+chr.to.int$ -- 0
+cite$ -- 18
+duplicate$ -- 155
+empty$ -- 336
+format.name$ -- 49
+if$ -- 793
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 15
+newline$ -- 78
+num.names$ -- 15
+pop$ -- 36
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 72
+stack$ -- 0
+substring$ -- 271
+swap$ -- 32
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 37
+width$ -- 17
+write$ -- 161
+(There were 3 warnings)

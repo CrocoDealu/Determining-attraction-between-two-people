@@ -1,0 +1,45 @@
+PWD /Users/david/Documents/Facultate/An_3/Sem_1/Cercetare
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/david/Documents/Facultate/An_3/Sem_1/Cercetare/Calculating People's Attractiveness.tex
+OUTPUT Calculating People's Attractiveness.log
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/natbib/natbib.sty
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/natbib/natbib.sty
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./Calculating People's Attractiveness.aux
+INPUT ./Calculating People's Attractiveness.aux
+INPUT Calculating People's Attractiveness.aux
+OUTPUT Calculating People's Attractiveness.aux
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT Calculating People's Attractiveness.pdf
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./Calculating People's Attractiveness.bbl
+INPUT ./Calculating People's Attractiveness.bbl
+INPUT Calculating People's Attractiveness.bbl
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT Calculating People's Attractiveness.aux
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb

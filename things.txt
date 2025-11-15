@@ -1,0 +1,126 @@
+Schita
+1. Abstract
+2. Idea
+3. Data
+4. Methodology
+5. Conclusion
+6. Research Questions
+7. References
+
+
+
+Hypothesis: A multimodal model that simultaneously analyzes facial expressions, body movements, 
+voice tone, and spoken language can accurately predict the degree of mutual attraction
+between two people meeting for the first time.
+
+Proposed Methodology:
+
+    Data Collection and Preprocessing:
+
+    Facial expressions: Video capture at x frames per second
+    Body movements: Motion tracking data 
+    Voice tone: Audio features extraction
+    Spoken language: Speech-to-text conversion 
+
+    Model Architecture:
+
+    Input Layer: 
+        Four parallel streams processing each modality at frame x
+        Facial experssion
+        Gesture made
+        Voice tone 
+        Text embeddings from spoken words
+    RNN Core:
+        Takes combined features from all modalities at each frame x
+        Maintains state information between frames
+        Outputs feature vector representing the current state of attraction
+
+    Sequential Processing:
+
+    For each frame x:
+        Process all four inputs simultaneously
+        Combine with previous frame's state information
+        Generate new state and attraction features
+        Pass state information to frame x+1
+        Continue until end of interaction
+
+    Output Generation:
+
+    Final attraction prediction based on:
+        Accumulated state information
+        Temporal patterns in the interaction
+        Cross-modal correlations 
+
+    Validation:
+
+    Compare model predictions with:
+        Participant self-reported attraction scores
+        Expert annotations of interaction quality
+        Objective measures of engagement and synchrony
+
+
+A. Novel Integration Method:
+
+    First time combining all four modalities (facial, body, voice, text) in a sequential RNN architecture
+    Innovation in temporal feature passing between frames 
+    Unique approach to measuring attraction
+
+B. Key Differentiators:
+
+    Most existing studies focus on individual modalities
+    Current systems don't consider temporal evolution of attraction
+    New method of combining state information between frames
+
+
+REQUIRED EXPERIMENTS:
+
+A. Data Collection Experiments:
+
+    Speed dating setup
+    20-30 pairs of participants
+    5-minute interactions
+    Multiple camera angles
+    Audio recording
+
+B. Model Validation Experiments:
+
+    Test each input separately:
+        Facial expression only
+        Body movement only
+        Voice tone only
+        Text only
+    Compare with multimodal results
+    Compare with Tensor Fusion Network
+    Different frame rates (x = 1s, 2s, 5s)
+    Various sequence lengths
+    State information retention tests
+    K-fold validation on different participant groups
+
+C. Comparison Experiments:
+
+    Human expert predictions
+    Speed dating events 
+    First-time business meetings
+    Social gathering scenarios
+    Online video chat interactions
+
+D. Evaluation Metrics:
+
+    Prediction accuracy
+    False positive/negative rates
+    Temporal consistency
+    Cross-modal correlation
+    Participant feedback forms
+    User experience surveys
+
+
+Original contribution: First time someone's tried to calculate peoples attraction 
+on the first meetup with another person using a multimodal approach. Also i m using a RNN 
+to help the model predict better based on the last features that were predicted
+
+Research Questions: 
+
+    How does the integration of multiple modalities (facial, bodily, vocal, and verbal) improve attraction prediction compared to single-modality approaches?
+    How does attraction evolve during first-time encounters across different timeframes? 
+    What is the optimal frame rate for capturing meaningful changes in attraction signals?
+    Which modality serves as the earliest predictor of mutual attraction?
