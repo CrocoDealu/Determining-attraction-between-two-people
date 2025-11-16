@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage{natbib}
 \usepackage[utf8]{inputenc}
+\usepackage{amsmath}
 
 \begin{document}
 
@@ -9,97 +10,210 @@
 }
 
 \maketitle
-\begin{enumerate}
-\item \textbf{\Large A Multimodal Emotion Recognition System: Integrating Facial Expressions, Body Movement, Speech, and Spoken Language} \citep{kraack2023}
+\section{Data}
 
-Why I chose it: It demonstrates the effectiveness of a multimodal architecture for emotion recognition, using the same modalities I target (facial expressions, body movement, speech, and language).
+\subsection{Data Source}
+The dataset used in this research consists of publicly available YouTube videos showing 
+first-time interactions between two people, primarily in speed-dating contexts. 
+These videos typically contain short conversations (3--5 minutes) where participants decide 
+whether they would like to go on a second date. This final decision serves as the 
+ground-truth label (\textit{positive attraction} = 1, \textit{no attraction} = 0).
 
-Description: Proposes a multimodal emotion recognition system that combines four data sources—facial expressions, body movements, voice, and spoken language. The author argues this approach substantially increases accuracy. The paper presents the system architecture and reports evaluation statistics on the test datasets used.
+This approach is supported by previous research showing that real-time recordings of 
+natural interactions can reliably capture social and emotional cues 
+\citep{haidet2009}. Furthermore, speed-dating scenarios have been used to study romantic 
+interest and body-movement synchrony \citep{chang2021}, as well as trait-rated 
+attraction in virtual dating environments \citep{french2024}.
 
-\item \textbf{\Large Learning situated emotions} \citep{lebois2018}
+\subsection{Modalities Collected}
 
-Why I chose it: It argues that emotions are grounded in prior experiences; the emotions we feel now depend on what we have felt before.
+Following multimodal affective-computing research 
+\citep{kraack2023, sherstinsky2022, 2017multimodalmachinelearningsurvey},
+four complementary modalities are extracted:
 
-Description: People do not have only a universal version of an emotion (e.g., fear or anger). Instead, they learn situation-specific variants of these emotions that fit particular contexts (e.g., fear of physical injury versus fear of social rejection). Over time, these situational forms become part of a person's "real self."
+\begin{itemize}
+    \item \textbf{Facial expressions}: frame-level emotional and micro-expression features.
+    \item \textbf{Body movements}: upper-body posture, gesture frequency, and motion energy.
+    \item \textbf{Voice tone}: prosodic signals---pitch, intensity, vibrato, and spectral shape.
+    \item \textbf{Spoken language}: utterance segmentation and semantic embeddings extracted 
+    from speech-to-text transcripts.
+\end{itemize}
 
-\item \textbf{\Large Facial expression and body gesture emotion recognition: A systematic review on the use of visual data in affective computing} \citep{sherstinsky2022}
+These modalities align with the theoretical view that attraction is multimodal, 
+influenced simultaneously by appearance, vocal qualities, movement, and language 
+\citep{williams2023, schirmer2025, didonato2023}.
 
-Why I chose it: It surveys the full range of approaches used to classify emotions from visual data, providing a comprehensive overview of algorithms and techniques.
+\subsection{Data Preprocessing}
 
-Description: Reviews common methods for recognizing emotions from facial expressions and body gestures, summarizing the state of the art and methodological trends in affective computing with visual data.
+\subsubsection{Video Preprocessing}
+Videos are sampled at fixed intervals (1\,s, 2\,s, and 5\,s) to test different temporal granularities.
+Black frames—introduced by video editing—are removed from the \emph{visual stream} but \textbf{audio is preserved}.  
+This ensures that vocal features remain accessible even when visual frames are invalid.
 
-\item \textbf{\Large Recurrent Neural Networks (RNNs): A gentle Introduction and Overview} \citep{schmidt2019}
+Feature extraction follows affective computing best practices 
+\citep{sherstinsky2022}, and motion cues are computed analogously to 
+speed-dating movement studies \citep{chang2021}.
 
-Why I chose it: It clarifies RNNs and their applicability to sequential data. I apply this principle because current emotions are influenced by previously experienced emotions.
+\subsubsection{Audio Preprocessing}
+Audio is diarized into two speakers using pretrained separation models, following 
+multimodal speech guidelines \citep{ahlawat2022}.  
+This yields:
 
-Description: Offers a detailed introduction to RNNs and LSTMs, explaining core architectures, what an RNN/LSTM cell is, and how backpropagation through time works. It also discusses challenges of simple RNNs, such as vanishing and exploding gradients.
+\begin{itemize}
+    \item Speaker A prosody features
+    \item Speaker B prosody features
+    \item Speaker A transcript embeddings
+    \item Speaker B transcript embeddings
+\end{itemize}
 
-\item \textbf{\Large Automatic Speech Recognition: A survey of deep learning techniques and approaches} \citep{ahlawat2022}
+This separation is crucial because the model computes attraction \emph{per individual}, not jointly.
 
-Why I chose it: It helps map the landscape of speech recognition techniques and their evolution, informing the choice of a recognition model for my work.
+\subsubsection{Text Processing}
+Speech is transcribed using a transformer-based ASR system, as recommended in 
+recent ASR surveys \citep{ahlawat2022}.  
+Sentences are encoded using modern semantic embeddings to capture warmth, 
+interest, and affective vocabulary.
 
-Description: Highlights and compares deep learning–based methods for converting human speech to text, covering datasets, metrics, toolkits, and recent models.
+\subsection{Labels}
 
-\item \textbf{\Large A test of multimodal communication in humans using 881 judgements of men and women's physical, vocal, and olfactory attractiveness} \citep{williams2023}
+The label for each interaction is extracted from the explicit verbal response of the 
+participants (“yes/no” to a second date).  
+These labels serve as ground truth for binary attraction classification.
 
-Why I chose it: Reinforces the multimodal perspective by evaluating physical appearance, vocal, and olfactory attractiveness simultaneously.
+Since no prior multimodal dataset explicitly measures attraction, our contribution 
+constitutes the first dataset of its kind, bridging multimodal emotion recognition 
+\citep{kraack2023} and romantic-attraction analysis \citep{didonato2023}.
 
-Description: Tests the redundancy hypothesis—that different modalities may not add unique information but provide overlapping cues available through other senses—within human judgments of attractiveness.
+\section{Methodology}
 
-\item \textbf{\Large Body sway predicts romantic interest in speed dating} \citep{chang2021}
+\subsection{Overview}
+The proposed approach is a multimodal sequential model that integrates facial expressions, 
+body movement, vocal tone, and linguistic features to predict attraction during first-time 
+interactions. The model follows the principle that emotions and social signals evolve 
+temporally and are influenced by previously expressed states 
+\citep{lebois2018, schmidt2019}.
 
-Why I chose it: Matches our first-meeting setup and uses body movement to predict mutual liking. It also tests background music, which we can adopt.
+\subsection{Model Architecture}
 
-Description: They recorded partners' movements during real speed dates and measured how much one person's movement followed the other. This directional coupling predicted romantic interest beyond attractiveness, and groovy background music increased willingness to meet again.
+\subsubsection{Parallel Feature Extractors}
+Each modality is processed through a dedicated encoder operating at the same sampling rate:
 
-\item \textbf{\Large Virtual speed dating: Utilizing online‐meeting platforms to study initial attraction and relationship formation} \citep{french2024}
+\begin{itemize}
+    \item \textbf{Facial Expression Encoder}: a CNN-based feature extractor, following 
+    multimodal emotion-recognition architectures \citep{kraack2023}.
+    
+    \item \textbf{Body Movement Encoder}: a motion-vector and pose-estimation module using 
+    standard affective-computing visual pipelines \citep{sherstinsky2022}.
+    
+    \item \textbf{Voice Tone Encoder}: an audio CNN or Transformer extracting prosodic features, 
+    following speech emotion research \citep{ahlawat2022}.
+    
+    \item \textbf{Language Encoder}: Transformer-based embeddings of the transcript, 
+    similar to multimodal sentiment-analysis frameworks \citep{zadeh2017tensorfusionnetworkmultimodal}.
+\end{itemize}
 
-Why I chose it: It proposes some other inputs that people could give at the end of the interaction: attractiveness, warmth, status, similarity, and romantic interest.
+\subsubsection{Fusion and Alignment}
+All modality embeddings at time $t$ are concatenated into a unified multimodal vector:
+\[
+x_t = [x_t^{\text{face}}, x_t^{\text{body}}, x_t^{\text{voice}}, x_t^{\text{text}}].
+\]
 
-Description: Participants first completed a baseline survey, then joined virtual speed-dating events on Zoom where they met multiple partners for 4-minute video dates, rated each on traits like attractiveness, warmth, similarity, and romantic interest, were matched when both expressed mutual interest, attended recorded virtual first dates with their matches, and completed weekly follow-up surveys for four weeks to track relationship development.
+Temporal alignment is performed using:
+\begin{itemize}
+    \item strict timestamp matching (baseline),
+    \item sliding-window alignment as proposed in SWRR \citep{zhao2023swr},
+    \item tensor fusion for cross-modal interaction \citep{zadeh2017tensorfusionnetworkmultimodal}.
+\end{itemize}
 
-\item \textbf{\Large Attraction in every sense: How looks, voice, movement and scent draw us to future lovers and friends} \citep{schirmer2025}
+This allows us to evaluate the sensitivity of the model to synchronization choices, 
+as recommended in multimodal fusion surveys \citep{2017multimodalmachinelearningsurvey}.
 
-Why I chose it: Reinforces our choosing of multimodal approach importance in calculating attraction between lovers and friends and also the fact that olfactory senses don't matter that much.
+\subsection{Sequential Modeling}
+A recurrent neural network (RNN, LSTM, or GRU) processes the multimodal sequence:
+\[
+h_t = f(h_{t-1}, x_t),
+\]
+where $h_t$ represents the latent \emph{interaction state} at time $t$, reflecting gradual 
+emotional buildup, consistent with theories of situated emotion \citep{lebois2018}.
 
-Description: Participants were exposed to recordings of individuals through four sensory modalities—faces (visual), voices (auditory), body movements (visual motion), and body odours (olfactory)—as well as combined audio-video (multimodal) presentations; they then rated each stimulus for attractiveness, allowing researchers to compare how attraction judgments aligned across senses and identify correlations and redundancies between modalities.
+Following \cite{schmidt2019}, an LSTM architecture is preferred due to its capacity to model 
+long-term dependencies without vanishing gradients.
 
-\item \textbf{\Large Romantic Attraction (Chapter 4 from The Science of Romantic Relationships)} \citep{didonato2023}
+\subsection{Output Layer}
+After the final frame $T$, the model produces a global attraction score:
+\[
+\hat{y} = \sigma(W h_T + b),
+\]
+classifying the interaction as ``attracted’’ (1) or ``not attracted’’ (0).
 
-Why I chose it: Attraction accompanies with it a positive emotion so that ensures our research has basis (correlating positive expressions with attraction).
+\subsection{Validation and Evaluation}
 
-Description: This chapter explores interpersonal attraction, the subjective appeal of another person, which is often accompanied by a positive emotional reaction and an affiliative motivation for greater closeness to that person. This chapter organizes the many specific traits that enhance attraction in terms of characteristics that offer domain-general rewards and characteristics that advance specific evolutionary goals. The chapter then reviews the characteristics that are most consistently desirable, including physical attractiveness, social status, warmth/kindness, intelligence, proximity, familiarity, similarity, and reciprocity by reviewing relevant research findings, as well as exceptions and boundary conditions.
+\subsubsection{Comparison Baselines}
+Because no prior work explicitly predicts attraction from all four modalities, we compare our model with:
 
-\item \textbf{\Large Methods to improve reliability of video-recorded behavioral data} \citep{haidet2009}
+\begin{itemize}
+    \item unimodal baselines (face-only, body-only, voice-only, text-only),
+    \item Tensor Fusion Network \citep{zadeh2017tensorfusionnetworkmultimodal},
+    \item sliding-window attention models \citep{zhao2023swr}.
+\end{itemize}
 
-Why I chose it: Provides a way to make the people feel more natural when they first meet, giving more accuracy to our input data.
+This tests whether multimodal fusion provides measurable performance gains, as suggested by 
+multimodal-attraction studies \citep{williams2023, schirmer2025}.
 
-Description: Video-recorded real patient–clinician consultations to test ways to make recordings more natural and reliable. They used small, unobtrusive cameras, familiarized participants beforehand, standardized setup and coder training, and analyzed how these methods improved the consistency and authenticity of recorded interactions.
+\subsubsection{Evaluation Metrics}
 
-\item \textbf{\Large Multimodal Machine Learning: A Survey and Taxonomy} \citep{2017multimodalmachinelearningsurvey}
+\begin{itemize}
+    \item Accuracy
+    \item Precision, recall, F1
+    \item ROC-AUC
+    \item Temporal consistency (smoothness of predictions)
+    \item Cross-modal correlation scores
+\end{itemize}
 
-Why I chose it: It proposes multiple ways (Dynamic Time Warping, graphical models, etc.) to align the input sources (voice and video) and compares alignment approaches useful for multimodal fusion.
+\subsubsection{Experimental Variants}
 
-Description: Provides an overview of techniques used in multimodal models, discussing strengths and weaknesses of different alignment and fusion methods when combining sets of input features. The survey is useful for choosing alignment strategies and understanding trade-offs when integrating modalities.
+To validate robustness, we vary:
+\begin{itemize}
+    \item \textbf{frame rate}: 1\,s, 2\,s, 5\,s
+    \item \textbf{sequence length}: full interaction vs. early-segment prediction
+    \item \textbf{fusion strategies}: early vs. late fusion vs. tensor fusion
+    \item \textbf{alignment methods}: strict vs. sliding window
+\end{itemize}
 
-\item \textbf{\Large Tensor Fusion Network for Multimodal Sentiment Analysis} \citep{zadeh2017tensorfusionnetworkmultimodal}
+\subsection{Mathematical Model}
 
-Why I chose it: It proposes a novel fusion method (Tensor Fusion Network) that explicitly models unimodal, bimodal and trimodal interactions — a promising candidate to include in our experiments.
+For each modality $m \in \{\text{}{face}, \text{body}, \text{voice}, \text{text}\}$ and time step $t$:
 
-Description: Introduces the Tensor Fusion Network which combines unimodal representations into a 3‑dimensional tensor formed by the 3‑way Cartesian product of modality embeddings; this structure captures intra- and cross-modal interactions and can improve multimodal sentiment/emotion prediction.
+\[
+x_t^m = E_m(I_t^m)
+\]
 
-\item \textbf{\Large SWRR: Feature Map Classifier Based on Sliding Window Attention and High-Response Feature Reuse for Multimodal Emotion Recognition} \citep{zhao2023swr}
+All modality embeddings are fused as:
 
-Why I chose it: Proposes an alternative to strict frame-to-frame alignment by using sliding-window attention and feature-reuse, an approach we can test to handle temporal misalignment between audio and video.
+\[
+x_t = x_t^{\text{face}} +  x_t^{\text{body}} + x_t^{\text{voice}} +  x_t^{\text{text}}
+\]
 
-Description: Proposes SWRR, which processes audio and visual features in overlapping sliding windows (1–2 s windows, 0.5–1 s hop) rather than relying on exact timestamp matching. Attention highlights salient moments in each window and a feature-reuse module carries strong cues between overlapping windows for smoother, more robust predictions.
+The RNN updates its hidden state via:
 
-\item \textbf{\Large Improving Techniques for Convolutional Neural Networks Performance } \citep{improving_cnn_2024}
+\[
+h_t = \mathrm{LSTM}(x_t, h_{t-1})
+\]
 
-Why I chose it: Proposes sliding-window attention to handle temporal misalignment when modalities lack frame-level synchronization; it's practical for our experiments testing alternative temporal fusion strategies and enhancing real-time applicability.
+Final attraction probability:
 
-Description: Convolutional Neural Networks (CNNs) have been extensively used in several application domains. Researchers have been exploring methods to enhance the accuracy of applications in accuracy-critical domains by either increasing the depth or width of the network. The presence of structures results in a significant increase in both computational and storage costs, hence causing a delay in response time. Convolutional Neural Networks have significantly contributed to the rapid development of several applications, including image classification, object detection, and semantic segmentation. However, in some applications that need zero tolerance for mistakes, such as automated systems, there are still certain issues that need to be addressed to achieve better performance. Then, despite the progress made so far, there are still limitations and challenges that must be overcome. Simultaneously, there is a need for reduced reaction time. Convolutional Neural Networks (CNNs) are now faced with significant obstacles of a formidable nature. This paper investigates different methods that can be used to improve convolutional neural network performance.
-\end{enumerate}
+\[
+P(y=1 \mid x_{1:T}) = \sigma(Wh_T + b)
+\]
+
+Loss function (binary cross-entropy):
+
+\[
+\mathcal{L} = - \left[y \log(\hat{y}) + (1-y)\log(1-\hat{y})\right]
+\]
+
+This provides a complete mathematical formulation of the proposed experimental model.
+
 
 \bibliographystyle{unsrt}
 \bibliography{refs}

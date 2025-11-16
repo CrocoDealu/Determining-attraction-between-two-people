@@ -3,3 +3,4 @@ numpy
 torch
 pydub
 faster_whisper
+py-feat

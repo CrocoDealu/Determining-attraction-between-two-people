@@ -6,45 +6,45 @@ Database file #1: refs.bib
 Warning--empty journal in 2017multimodalmachinelearningsurvey
 Warning--empty journal in zadeh2017tensorfusionnetworkmultimodal
 Warning--empty journal in zhao2023swr
-You've used 15 entries,
+You've used 14 entries,
             1791 wiz_defined-function locations,
-            537 strings with 6341 characters,
-and the built_in function-call counts, 3653 in all, are:
-= -- 325
-> -- 173
+            530 strings with 6176 characters,
+and the built_in function-call counts, 3456 in all, are:
+= -- 305
+> -- 169
 < -- 2
-+ -- 64
-- -- 49
-* -- 267
-:= -- 591
-add.period$ -- 46
-call.type$ -- 15
-change.case$ -- 15
++ -- 62
+- -- 48
+* -- 251
+:= -- 560
+add.period$ -- 43
+call.type$ -- 14
+change.case$ -- 14
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 155
-empty$ -- 336
-format.name$ -- 49
-if$ -- 793
+cite$ -- 17
+duplicate$ -- 146
+empty$ -- 315
+format.name$ -- 48
+if$ -- 751
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 15
-newline$ -- 78
-num.names$ -- 15
-pop$ -- 36
+int.to.str$ -- 14
+missing$ -- 14
+newline$ -- 73
+num.names$ -- 14
+pop$ -- 35
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 72
+skip$ -- 69
 stack$ -- 0
-substring$ -- 271
-swap$ -- 32
+substring$ -- 255
+swap$ -- 31
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 37
-width$ -- 17
-write$ -- 161
+while$ -- 34
+width$ -- 16
+write$ -- 150
 (There were 3 warnings)
