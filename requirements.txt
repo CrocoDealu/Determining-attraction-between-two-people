@@ -1,6 +1,6 @@
-opencv-python
-numpy
-torch
-pydub
-faster_whisper
-py-feat
+opencv-python>=4.5.0
+face-recognition>=1.3.0
+librosa>=0.8.0
+soundfile>=0.10.0
+pydub>=0.25.0
+numpy>=1.21.0
