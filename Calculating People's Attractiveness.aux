@@ -1,63 +1,24 @@
 \relax 
-\citation{haidet2009}
-\citation{chang2021}
-\citation{french2024}
-\citation{kraack2023,sherstinsky2022,2017multimodalmachinelearningsurvey}
-\citation{williams2023,schirmer2025,didonato2023}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Data}{1}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Data Source}{1}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Modalities Collected}{1}{}\protected@file@percent }
-\citation{sherstinsky2022}
-\citation{chang2021}
-\citation{ahlawat2022}
-\citation{ahlawat2022}
-\citation{kraack2023}
-\citation{didonato2023}
-\citation{lebois2018,schmidt2019}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Data Preprocessing}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.1}Video Preprocessing}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.2}Audio Preprocessing}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.3}Text Processing}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Labels}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2}Methodology}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Overview}{2}{}\protected@file@percent }
-\citation{kraack2023}
-\citation{sherstinsky2022}
-\citation{ahlawat2022}
-\citation{zadeh2017tensorfusionnetworkmultimodal}
-\citation{zhao2023swr}
-\citation{zadeh2017tensorfusionnetworkmultimodal}
-\citation{2017multimodalmachinelearningsurvey}
-\citation{lebois2018}
 \citation{schmidt2019}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Model Architecture}{3}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Parallel Feature Extractors}{3}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Fusion and Alignment}{3}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Sequential Modeling}{3}{}\protected@file@percent }
-\citation{zadeh2017tensorfusionnetworkmultimodal}
-\citation{zhao2023swr}
-\citation{williams2023,schirmer2025}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Output Layer}{4}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Validation and Evaluation}{4}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.1}Comparison Baselines}{4}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.2}Evaluation Metrics}{4}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.3}Experimental Variants}{4}{}\protected@file@percent }
+\citation{lebois2018}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Data Collection}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Person-Specific Video Segmentation}{1}{}\protected@file@percent }
+\citation{schmidt2019,lebois2018}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Audio Extraction Aligned With Speaker Visibility}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Facial Action Unit Extraction}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Body, Hand, and Upper-Body Movement Features}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Methodology}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Sequence Construction and Feature Representation}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Feature Normalization}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Sequential LSTM Architecture}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Training Objective and Optimization}{4}{}\protected@file@percent }
+\citation{lebois2018,schmidt2019}
 \bibstyle{unsrt}
 \bibdata{refs}
-\bibcite{haidet2009}{{1}{}{{}}{{}}}
-\bibcite{chang2021}{{2}{}{{}}{{}}}
-\bibcite{french2024}{{3}{}{{}}{{}}}
-\bibcite{kraack2023}{{4}{}{{}}{{}}}
-\bibcite{sherstinsky2022}{{5}{}{{}}{{}}}
-\bibcite{2017multimodalmachinelearningsurvey}{{6}{}{{}}{{}}}
-\bibcite{williams2023}{{7}{}{{}}{{}}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Mathematical Model}{5}{}\protected@file@percent }
-\bibcite{schirmer2025}{{8}{}{{}}{{}}}
-\bibcite{didonato2023}{{9}{}{{}}{{}}}
-\bibcite{ahlawat2022}{{10}{}{{}}{{}}}
-\bibcite{lebois2018}{{11}{}{{}}{{}}}
-\bibcite{schmidt2019}{{12}{}{{}}{{}}}
-\bibcite{zadeh2017tensorfusionnetworkmultimodal}{{13}{}{{}}{{}}}
-\bibcite{zhao2023swr}{{14}{}{{}}{{}}}
+\bibcite{schmidt2019}{{1}{}{{}}{{}}}
+\bibcite{lebois2018}{{2}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
-\gdef \@abspage@last{6}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Training Protocol}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Summary}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}References}{5}{}\protected@file@percent }
+\gdef \@abspage@last{5}
