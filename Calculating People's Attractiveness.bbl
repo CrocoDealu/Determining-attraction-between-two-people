@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{schmidt2019}
 R.~M. Schmidt.
@@ -9,5 +9,55 @@ R.~M. Schmidt.
 L.~A.~M. Lebois, C.~D. Wilson-Mendenhall, W.~K. Simmons, L.~F. Barrett, and L.~W. Barsalou.
 \newblock Learning situated emotions.
 \newblock {\em Neuropsychologia}, 145:106637, 2018.
+
+\bibitem{2017multimodalmachinelearningsurvey}
+Tadas Baltrušaitis, Chaitanya Ahuja, and Louis-Philippe Morency.
+\newblock Multimodal machine learning: A survey and taxonomy.
+\newblock 2017.
+
+\bibitem{sherstinsky2022}
+A.~Sherstinsky.
+\newblock Facial expression and body gesture emotion recognition: A systematic review on the use of visual data in affective computing.
+\newblock {\em IEEE Transactions on Affective Computing}, 13(4):1648--1670, 2022.
+
+\bibitem{zadeh2017tensorfusionnetworkmultimodal}
+Amir Zadeh, Minghai Chen, Soujanya Poria, Erik Cambria, and Louis-Philippe Morency.
+\newblock Tensor fusion network for multimodal sentiment analysis.
+\newblock 2017.
+
+\bibitem{zhao2023swr}
+Z.~Zhao, T.~Gao, H.~Wang, and B.~W. Schuller.
+\newblock Swrr: Feature map classifier based on sliding window attention and high-response feature reuse for multimodal emotion recognition.
+\newblock pages 2433--2437, 2023.
+
+\bibitem{kraack2023}
+K.~Kraack.
+\newblock A multimodal emotion recognition system: Integrating facial expressions, body movement, speech, and spoken language.
+\newblock {\em arXiv preprint}, 2023.
+
+\bibitem{didonato2023}
+Theresa DiDonato and Brett Jakubiak.
+\newblock Romantic attraction.
+\newblock In {\em The Science of Romantic Relationships}, pages 123--157. Cambridge University Press, 2023.
+
+\bibitem{schirmer2025}
+A.~Schirmer, M.~Franz, L.~Krismann, V.~Nöring, M.~Große, M.~Mahmut, and I.~Croy.
+\newblock Attraction in every sense: How looks, voice, movement and scent draw us to future lovers and friends.
+\newblock {\em British Journal of Psychology}, 116(3):684--701, 2025.
+
+\bibitem{chang2021}
+A.~Chang, H.~E. Kragness, W.~Tsou, D.~J. Bosnyak, A.~Thiede, and L.~J. Trainor.
+\newblock Body sway predicts romantic interest in speed dating.
+\newblock {\em Social Cognitive and Affective Neuroscience}, 16(1--2):185--192, 2021.
+
+\bibitem{french2024}
+J.~E. French, L.~J. Bolton, and A.~L. Meltzer.
+\newblock Virtual speed dating: Utilizing online‐meeting platforms to study initial attraction and relationship formation.
+\newblock {\em Personal Relationships}, 31(2):420--444, 2024.
+
+\bibitem{williams2023}
+Megan~Nicole Williams and Coren~Lee Apicella.
+\newblock A test of multimodal communication in humans using 881 judgements of men and women's physical, vocal, and olfactory attractiveness.
+\newblock {\em Heliyon}, 9(6):e16895, 2023.
 
 \end{thebibliography}
