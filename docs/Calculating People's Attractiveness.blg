@@ -3,48 +3,50 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Calculating People's Attractiveness.aux
 The style file: unsrt.bst
 Database file #1: refs.bib
+Warning--I didn't find a database entry for ""
 Warning--empty journal in 2017multimodalmachinelearningsurvey
+Warning--can't use both volume and number fields in hutto2014vader
 Warning--empty journal in zadeh2017tensorfusionnetworkmultimodal
 Warning--empty journal in zhao2023swr
-You've used 12 entries,
+You've used 15 entries,
             1791 wiz_defined-function locations,
-            517 strings with 5830 characters,
-and the built_in function-call counts, 2951 in all, are:
-= -- 260
-> -- 141
-< -- 2
-+ -- 52
-- -- 40
-* -- 206
-:= -- 477
-add.period$ -- 37
-call.type$ -- 12
-change.case$ -- 12
+            536 strings with 6441 characters,
+and the built_in function-call counts, 3813 in all, are:
+= -- 339
+> -- 174
+< -- 4
++ -- 64
+- -- 49
+* -- 271
+:= -- 601
+add.period$ -- 46
+call.type$ -- 15
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 128
-empty$ -- 270
-format.name$ -- 40
-if$ -- 645
+cite$ -- 19
+duplicate$ -- 167
+empty$ -- 354
+format.name$ -- 49
+if$ -- 841
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 12
-newline$ -- 63
-num.names$ -- 12
-pop$ -- 33
+int.to.str$ -- 15
+missing$ -- 15
+newline$ -- 78
+num.names$ -- 15
+pop$ -- 39
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 63
+skip$ -- 88
 stack$ -- 0
-substring$ -- 214
-swap$ -- 29
-text.length$ -- 2
+substring$ -- 286
+swap$ -- 44
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 28
-width$ -- 14
-write$ -- 128
-(There were 3 warnings)
+warning$ -- 4
+while$ -- 37
+width$ -- 17
+write$ -- 162
+(There were 5 warnings)
