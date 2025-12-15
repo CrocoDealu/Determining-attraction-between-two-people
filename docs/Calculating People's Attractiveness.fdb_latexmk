@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex Calculating People's Attractiveness"] 1763546083.67617 "Calculating People's Attractiveness.aux" "Calculating People's Attractiveness.bbl" "Calculating People's Attractiveness" 1763546337.81476 0
+["bibtex Calculating People's Attractiveness"] 1765817477.33496 "Calculating People's Attractiveness.aux" "Calculating People's Attractiveness.bbl" "Calculating People's Attractiveness" 1765817478.33618 0
   "./refs.bib" 1763544315.80085 5280 1d5df241a77ec1d39298f4efd4d9d911 ""
   "/usr/local/Cellar/texlive/20250308_2/share/texmf-dist/bibtex/bst/base/unsrt.bst" 1741388039 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "Calculating People's Attractiveness.aux" 1763546337.41145 3556 14af76de28886b98a2729826488b0de7 "pdflatex"
+  "Calculating People's Attractiveness.aux" 1765817477.99778 4714 255c6f3098a24f565345f6ff36bb16b2 "pdflatex"
   (generated)
   "Calculating People's Attractiveness.bbl"
   "Calculating People's Attractiveness.blg"
   (rewritten before read)
-["pdflatex"] 1763546336.77185 "/Users/david/Documents/Facultate/An_3/Sem_1/Cercetare/Calculating People's Attractiveness.tex" "Calculating People's Attractiveness.pdf" "Calculating People's Attractiveness" 1763546337.81504 0
-  "/Users/david/Documents/Facultate/An_3/Sem_1/Cercetare/Calculating People's Attractiveness.tex" 1763546336.488 17732 d53f993d38a5475dfc04e4068815066b ""
+["pdflatex"] 1765817477.4667 "/Users/david/Documents/Facultate/An_3/Sem_1/Cercetare/docs/Calculating People's Attractiveness.tex" "Calculating People's Attractiveness.pdf" "Calculating People's Attractiveness" 1765817478.33643 0
+  "/Users/david/Documents/Facultate/An_3/Sem_1/Cercetare/docs/Calculating People's Attractiveness.tex" 1765817476.06456 31695 408c2ba3108d565371b882c886c1b126 ""
   "/usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1741388039 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1741388039 5466553 2748998d7db8078826afa1f272036265 ""
@@ -69,9 +69,9 @@
   "/usr/local/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/natbib/natbib.sty" 1741388039 45456 1c8843383c0bd05870c45fa0ebea6cc2 ""
   "/usr/local/Cellar/texlive/20250308_2/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/usr/local/Cellar/texlive/20250308_2/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346062 5b41f5f1f86715961a7a7134091efb1b ""
-  "Calculating People's Attractiveness.aux" 1763546337.41145 3556 14af76de28886b98a2729826488b0de7 "pdflatex"
-  "Calculating People's Attractiveness.bbl" 1763546083.80941 2791 a6dfed74f7b261eb291c421a717c35b5 "bibtex Calculating People's Attractiveness"
-  "Calculating People's Attractiveness.tex" 1763546336.488 17732 d53f993d38a5475dfc04e4068815066b ""
+  "Calculating People's Attractiveness.aux" 1765817477.99778 4714 255c6f3098a24f565345f6ff36bb16b2 "pdflatex"
+  "Calculating People's Attractiveness.bbl" 1765817477.46336 2791 a6dfed74f7b261eb291c421a717c35b5 "bibtex Calculating People's Attractiveness"
+  "Calculating People's Attractiveness.tex" 1765817476.06456 31695 408c2ba3108d565371b882c886c1b126 ""
   (generated)
   "Calculating People's Attractiveness.aux"
   "Calculating People's Attractiveness.log"

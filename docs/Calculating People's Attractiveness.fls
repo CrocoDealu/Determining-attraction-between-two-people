@@ -1,7 +1,7 @@
-PWD /Users/david/Documents/Facultate/An_3/Sem_1/Cercetare
+PWD /Users/david/Documents/Facultate/An_3/Sem_1/Cercetare/docs
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/david/Documents/Facultate/An_3/Sem_1/Cercetare/Calculating People's Attractiveness.tex
+INPUT /Users/david/Documents/Facultate/An_3/Sem_1/Cercetare/docs/Calculating People's Attractiveness.tex
 OUTPUT Calculating People's Attractiveness.log
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/base/article.cls
@@ -60,6 +60,10 @@ INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/amsfonts/u
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+OUTPUT Calculating People's Attractiveness.pdf
+INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
@@ -70,9 +74,6 @@ INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/ams
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-OUTPUT Calculating People's Attractiveness.pdf
-INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
@@ -80,7 +81,6 @@ INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/cm-s
 INPUT ./Calculating People's Attractiveness.bbl
 INPUT ./Calculating People's Attractiveness.bbl
 INPUT Calculating People's Attractiveness.bbl
-INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT Calculating People's Attractiveness.aux
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
