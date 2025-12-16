@@ -16,7 +16,7 @@ A.~Schirmer, M.~Franz, L.~Krismann, V.~Nöring, M.~Große, M.~Mahmut, and I.~Cro
 \newblock {\em British Journal of Psychology}, 116(3):684--701, 2025.
 
 \bibitem{williams2023}
-Megan~Nicole Williams and Coren~Lee Apicella.
+Megan~Nicole {Williams} and Coren~Lee {Apicella}.
 \newblock A test of multimodal communication in humans using 881 judgements of men and women's physical, vocal, and olfactory attractiveness.
 \newblock {\em Heliyon}, 9(6):e16895, 2023.
 
@@ -45,16 +45,6 @@ C.~J. Hutto and Eric Gilbert.
 \newblock Vader: A parsimonious rule-based model for sentiment analysis of social media text.
 \newblock In {\em Proceedings of the International AAAI Conference on Web and Social Media}, volume~8, pages 216--225, 2014.
 
-\bibitem{lebois2018}
-L.~A.~M. Lebois, C.~D. Wilson-Mendenhall, W.~K. Simmons, L.~F. Barrett, and L.~W. Barsalou.
-\newblock Learning situated emotions.
-\newblock {\em Neuropsychologia}, 145:106637, 2018.
-
-\bibitem{schmidt2019}
-R.~M. Schmidt.
-\newblock Recurrent neural networks (rnns): A gentle introduction and overview.
-\newblock {\em arXiv preprint arXiv:1912.05911}, 2019.
-
 \bibitem{zadeh2017tensorfusionnetworkmultimodal}
 Amir Zadeh, Minghai Chen, Soujanya Poria, Erik Cambria, and Louis-Philippe Morency.
 \newblock Tensor fusion network for multimodal sentiment analysis.
@@ -64,6 +54,16 @@ Amir Zadeh, Minghai Chen, Soujanya Poria, Erik Cambria, and Louis-Philippe Moren
 Z.~Zhao, T.~Gao, H.~Wang, and B.~W. Schuller.
 \newblock Swrr: Feature map classifier based on sliding window attention and high-response feature reuse for multimodal emotion recognition.
 \newblock pages 2433--2437, 2023.
+
+\bibitem{schmidt2019}
+R.~M. Schmidt.
+\newblock Recurrent neural networks (rnns): A gentle introduction and overview.
+\newblock {\em arXiv preprint arXiv:1912.05911}, 2019.
+
+\bibitem{lebois2018}
+L.~A.~M. Lebois, C.~D. Wilson-Mendenhall, W.~K. Simmons, L.~F. Barrett, and L.~W. Barsalou.
+\newblock Learning situated emotions.
+\newblock {\em Neuropsychologia}, 145:106637, 2018.
 
 \bibitem{french2024}
 J.~E. French, L.~J. Bolton, and A.~L. Meltzer.

@@ -14,17 +14,16 @@
 \maketitle
 
 \section{Abstract}
-
+\begin{abstract}
+\itshape
 Romantic attraction arises from dynamic interactions between facial expression, body movement, voice, and spoken language, yet most computational approaches examine these cues in isolation or as static summaries \citep{sano2023computational}. This article addresses the problem of predicting romantic interest from short segments of naturalistic dyadic interactions using temporally aligned multimodal behavioral signals.
 
 We present a pipeline that extracts facial Action Units, hand and upper-body movement dynamics, acoustic prosodic features, and sentiment cues from video recordings, synchronized at the second level. These features are modeled as short behavioral sequences using a stacked Long Short-Term Memory (LSTM) network to capture temporal dependencies across modalities. Unlike conventional affect recognition tasks, our target is an explicitly interpersonal outcome: binary romantic attraction toward a specific interaction partner.
 
 Our contributions include (i) a practical multimodal preprocessing framework that aligns visual, vocal, and linguistic signals via participant visibility, (ii) a compact sequence-based representation of expressive behavior, and (iii) a temporal neural model for attraction prediction. Empirical results show that multimodal sequence modeling substantially outperforms static and unimodal baselines, supporting the view that attraction is communicated through dynamic, multimodal behavior rather than isolated cues.
+\end{abstract}
 
-
-\paragraph{Research Classification.}
-From a disciplinary perspective, this work is situated at the intersection of multimodal machine learning, affective computing, and computational social signal processing. Under the ACM Computing Classification System (CCS), it falls primarily within \emph{Computing methodologies}—specifically \emph{machine learning}, \emph{recurrent neural networks}, \emph{computer vision}, and \emph{natural language processing}—with additional relevance to \emph{human-centered computing} through affective computing. From the standpoint of the AMS Mathematics Subject Classification, the work relates most closely to \textbf{68T07} (artificial neural networks and deep learning), \textbf{68T10} (pattern recognition), and \textbf{62M45} (neural networks and related approaches to time series analysis), reflecting the sequential modeling of multimodal behavioral data.
-
+\footnotetext{ACM CCS:  Computing methodologies → Machine learning; Human-centered computing → Affective computing.  AMS MSC: 68T07, 68T10, 62M45.}
 \section{Introduction}
 
 Human romantic attraction plays a central role in social behavior, relationship formation, and well-being. It emerges rapidly during interaction and is shaped by a complex interplay of facial expressions, body movement, vocal characteristics, and spoken language \citep{didonato2023, schirmer2025, williams2023}. Psychological research has established that attraction is not determined by any single cue, but rather by the integration of multiple behavioral signals across these modalities \citep{schirmer2025, williams2023}. Recent work further demonstrates that attraction is sensitive to dynamic temporal patterns, such as synchronized body movement during brief interactions \citep{chang2021}. Despite this understanding, computational approaches to modeling attraction have remained limited, often focusing on static features, unimodal cues, or population-level attractiveness ratings rather than dyadic, temporally grounded interaction data \citep{2017multimodalmachinelearningsurvey, sherstinsky2022}.
@@ -112,11 +111,11 @@ The model is a stacked LSTM followed by fully connected layers:
     \item \textbf{Input:} sequences of shape $(T=15, D=28)$.  
     \item \textbf{LSTM layers:}
     \begin{enumerate}
-        \item LSTM(64), \texttt{return\_sequences=True}, dropout=0.2  
+        \item LSTM(64), return\_sequences=True, dropout=0.2  
         \item BatchNormalization
-        \item LSTM(32), \texttt{return\_sequences=True}, dropout=0.2  
+        \item LSTM(32), return\_sequences=True, dropout=0.2  
         \item BatchNormalization
-        \item LSTM(16), \texttt{return\_sequences=False}, dropout=0.2  
+        \item LSTM(16), return\_sequences=False, dropout=0.2  
         \item BatchNormalization
     \end{enumerate}
     \item \textbf{Dense layers:} Dense(32) with ReLU + Dropout(0.3), Dense(16) with ReLU + Dropout(0.2)  
@@ -157,11 +156,11 @@ Per person sequences are split such that validation data contains the last 20\% 
 
 \subsection{Summary}
 
-This methodology integrates multimodal behavioral signals into a sequential modeling framework. Temporal aggregation, sequence construction, normalization, and LSTM learning enable prediction of romantic interest while preserving interpretability and reproducibility. The approach adheres to best practices in affective computing and sequence-based behavioral modeling \citep{lebois2018, schmidt2019}.
+This methodology integrates multimodal behavioral signals into a sequential modeling framework. The approach adheres to best practices in affective computing and sequence-based behavioral modeling \citep{sherstinsky2022, 2017multimodalmachinelearningsurvey}.
 
 \section{Related Work}
 
-Our work lies at the intersection of multimodal affective computing and the psychology of romantic attraction. In contrast to many classical studies that examine isolated channels (e.g., only facial attractiveness or only vocal cues), we adopt an integrated perspective combining facial expressions, body movement, voice, and spoken language over time. This section reviews three main strands of prior research: (i) multimodal affective computing and behavioral signal processing, (ii) psychological and behavioral studies of attraction, and (iii) multimodal and multichannel approaches to human attractiveness.
+Our work lies at the intersection of multimodal affective computing \citep{kraack2023, sherstinsky2022, 2017multimodalmachinelearningsurvey} and the psychology of romantic attraction \citep{schirmer2025, williams2023, didonato2023}. In contrast to classical studies that examine isolated channels (e.g., only facial attractiveness \citep{sano2023computational} or only body movement \citep{chang2021}), we adopt an integrated perspective combining facial expressions, body movement, voice, and spoken language over time \citep{kraack2023, schirmer2025}. This section reviews three main strands of prior research: (i) multimodal affective computing and behavioral signal processing, (ii) psychological and behavioral studies of attraction, and (iii) multimodal and multichannel approaches to human attractiveness.
 
 \subsection{Multimodal Affective Computing and Sequence Modeling}
 
@@ -173,7 +172,7 @@ Unlike most of these studies, however, our target variable is not an internal af
 
 \subsection{Psychological Perspectives on Romantic Attraction}
 
-Psychological research on romantic attraction has identified multiple contributing factors, including physical appearance, voice, movement, similarity, and context \citep{didonato2023}. Recent work emphasizes that attraction is inherently multimodal and dynamic, emerging from the integration of cues across different sensory and behavioral channels during interaction. For example, \citep{schirmer2025} synthesize evidence showing that looks, voice, movement, and even scent jointly shape attraction to future lovers and friends, arguing that no single channel fully explains interpersonal appeal.
+Psychological research on romantic attraction has identified multiple contributing factors, including physical appearance, voice, movement, similarity, and context \citep{didonato2023}. Recent work emphasizes that attraction is inherently multimodal and dynamic, emerging from the integration of cues across different sensory and behavioral channels during interaction. For example, recent work \citep{schirmer2025} synthesizes evidence showing that looks, voice, movement, and even scent jointly shape attraction to future lovers and friends, arguing that no single channel fully explains interpersonal appeal.
 
 Experimental paradigms such as speed dating have been used to study the formation of initial romantic interest under controlled but ecologically valid conditions. \citep{chang2021} show that synchronized body sway and movement patterns during speed dates predict romantic interest, highlighting the importance of nonverbal motor coordination. \citep{french2024} extend this paradigm to virtual environments, using online meeting platforms to investigate how initial attraction and relationship formation unfold when interaction is mediated by video conferencing. These studies demonstrate that attraction judgments are sensitive to subtle temporal patterns in behavior, not just static snapshots of appearance or isolated self-report measures.
 
@@ -183,22 +182,15 @@ Our work is conceptually aligned with this literature in that we also focus on i
 
 Beyond emotion recognition and laboratory paradigms, several studies explicitly examine how different modalities communicate attractiveness and desirability. \citep{williams2023} analyze 881 judgments of men’s and women’s physical, vocal, and olfactory attractiveness, showing that these channels each contribute to perceived attractiveness, with partially overlapping but distinct information. Similarly, \citep{schirmer2025} argue for an ``attraction in every sense'' perspective, in which looks, voice, movement, and scent collectively inform evaluations of potential romantic partners and friends. These findings reinforce the idea that multimodal integration is necessary to approximate attraction judgments.
 
-Our study extends this multimodal perspective in two important ways. First, we move from static or cross-sectional attractiveness ratings to temporally resolved behavioral sequences, incorporating not just what a person looks or sounds like, but how their expressions, gestures, and vocal prosody evolve over 15-second windows. Second, whereas prior work often focuses on global attractiveness or desirability ratings aggregated across many observers, we aim to predict attraction at the dyadic level: whether a specific participant expresses romantic interest in a specific interaction partner. This shift from population level attractiveness to pair attraction introduces additional variability but brings the modeling task closer to the phenomenon of romantic choice.
-
-\subsection{Positioning and Expected Performance}
-
-Taken together, these strands of research suggest that (i) multimodal and temporal modeling can substantially improve the prediction of affective and social judgments \citep{2017multimodalmachinelearningsurvey, zadeh2017tensorfusionnetworkmultimodal, zhao2023swr, kraack2023}, and (ii) romantic attraction is shaped by an interplay of visual, vocal, and motor cues \citep{didonato2023, chang2021, schirmer2025, williams2023}. Our approach leverages these insights by training a sequential neural model on synchronized facial, gestural, vocal, and sentiment features to classify binary romantic-interest outcomes.
-
-In line with prior findings in speed-dating and attractiveness research, we expect that models relying solely on static or unimodal features (e.g., appearance only or voice only) would show limited performance when predicting individual attraction decisions. By contrast, our multimodal, sequence-based approach is expected to achieve performance that is at least comparable to other multimodal emotion and social judgment models \citep{kraack2023, zhao2023swr}, and potentially superior to simpler baselines that ignore temporal dynamics or rely on a single channel. At the same time, consistent with the literature on dyadic processes \citep{didonato2023}, we do not anticipate perfect predictability: unique interpersonal ``chemistry'' and unobserved contextual factors likely impose an upper bound on achievable accuracy, even with rich multimodal data.
-
+Our study extends this multimodal perspective in two important ways. First, we move from static or cross-sectional attractiveness ratings to temporally resolved behavioral sequences, incorporating not just what a person looks or sounds like, but how their expressions, gestures, and vocal prosody evolve over 15-second windows. Second, whereas prior work often focuses on global attractiveness or desirability ratings aggregated across many observers \citep{williams2023, sano2023computational}, we aim to predict attraction at the dyadic level: whether a specific participant expresses romantic interest in a specific interaction partner \citep{chang2021, french2024}. This shift from population-level attractiveness to pair attraction introduces additional variability but brings the modeling task closer to the phenomenon of romantic choice.
 
 \section{Results and Conclusions}
 
-The obtained results directly address the research questions posed in this article. First, the high validation accuracy and balanced precision–recall profile demonstrate that short multimodal behavioral sequences can indeed predict binary romantic attraction more effectively than static or unimodal representations, supporting the motivation for temporal and multimodal modeling \citep{2017multimodalmachinelearningsurvey, kraack2023}. Second, the success of the integrated feature set suggests that informative cues arise from the combination of facial, bodily, vocal, and linguistic signals when modeled jointly over time \citep{didonato2023, schirmer2025}. Third, the results indicate that sequential neural models can capture meaningful interpersonal outcomes, even when these outcomes are only partially observable from behavior and subject to individual variability \citep{lebois2018}.
+The model achieved a validation accuracy of 92\% with high precision (96.6\%) and recall (92.1\%) on the positive class (attraction). These results suggest that short multimodal behavioral sequences contain predictive information about binary romantic attraction, supporting the motivation for temporal and multimodal modeling \citep{2017multimodalmachinelearningsurvey, kraack2023}.  However, several limitations should be noted.  First, the dataset exhibits class imbalance (71\% attracted vs.  29\% not attracted), which may influence model predictions. Second, the relatively small validation set (300 samples) limits the strength of generalization claims. Third, while the integrated feature set combining facial, bodily, vocal, and linguistic signals shows promise \citep{didonato2023, schirmer2025}, systematic ablation studies are needed to determine the relative contribution of each modality.
 
 Several aspects of the experimental design support the validity of these conclusions. Temporal segmentation and per-second aggregation ensure that predictions are based on dynamic interaction patterns rather than isolated frames \citep{haidet2009}. Participant-level data splitting prevents information leakage between training and validation sets, promoting generalization to unseen individuals. Furthermore, deterministic handling of missing modalities through zero filling avoids introducing artificial correlations via imputation. Together, these design choices strengthen confidence that the reported performance reflects learned multimodal behavioral patterns rather than artifacts of preprocessing or evaluation.
 
-In conclusion, this work demonstrates that multimodal, sequence-based modeling provides a viable and effective approach to predicting romantic attraction from short segments of dyadic interaction \citep{kraack2023, lebois2018}. By integrating facial expressions, body movement, vocal prosody, and language into a unified temporal framework, the proposed method advances computational approaches to interpersonal affect and social judgment. The presented approach opens several directions for future research, including exploring attention-based architectures for interpretability, systematic ablation studies, and generalization to more diverse datasets \citep{zadeh2017tensorfusionnetworkmultimodal, zhao2023swr}.
+In conclusion, this work provides preliminary evidence that multimodal, sequence-based modeling offers a promising approach to predicting romantic attraction from short segments of dyadic interaction \citep{kraack2023, lebois2018}. The presented results demonstrate feasibility but also highlight the need for larger, more balanced datasets and more rigorous evaluation protocols.  Future work should include systematic ablation studies, attention-based architectures for interpretability, cross-validation across multiple data splits, and testing on independent datasets \citep{zadeh2017tensorfusionnetworkmultimodal, zhao2023swr}.
 \section{References}
 
 \bibliographystyle{unsrt}
