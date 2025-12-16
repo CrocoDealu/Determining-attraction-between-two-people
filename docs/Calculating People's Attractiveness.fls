@@ -118,6 +118,8 @@ INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/vf/adobe/times
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
@@ -134,16 +136,21 @@ INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/ams
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
-INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
-INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
+INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT ./Calculating People's Attractiveness.bbl
 INPUT ./Calculating People's Attractiveness.bbl
 INPUT Calculating People's Attractiveness.bbl
+INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
+INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT Calculating People's Attractiveness.aux
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

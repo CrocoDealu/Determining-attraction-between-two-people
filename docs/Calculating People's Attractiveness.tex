@@ -34,6 +34,20 @@ The problem addressed in this article is the following: \emph{can short sequence
 
 The importance of this problem is twofold. From a scientific perspective, computational models can complement traditional psychological methods based on self-report and manual coding \citep{kraack2023}. Such models enable precise analysis of how dynamic multimodal behavioral cues—including facial expressions, body movement, voice, and language—jointly shape interpersonal attraction judgments \citep{didonato2023, schirmer2025}. From a methodological standpoint, attraction prediction represents a challenging testbed for multimodal sequence modeling. Because attraction is shaped by multiple interacting factors that vary across individuals and contexts \citep{didonato2023}, the outcome is not perfectly determined by observable behavior alone, involving noisy, partially missing signals and strong individual differences. Progress in this area may therefore inform the design of more general models for social and affective inference.
 
+\subsection{Research Questions}
+
+This work addresses three specific research questions:
+
+\begin{enumerate}
+    \item \textbf{RQ1: Predictive power of multimodal sequences. } Can short temporal sequences (15 seconds) of multimodal behavioral signals—facial expressions, body movement, voice, and language—reliably predict binary romantic attraction between interaction partners? 
+    
+    \item \textbf{RQ2: Temporal modeling advantage.} Do sequence-based models that capture temporal dependencies outperform approaches based on static or time-averaged features?
+    
+    \item \textbf{RQ3: Multimodal integration.} Does jointly modeling facial, bodily, vocal, and linguistic cues improve prediction accuracy compared to unimodal approaches that examine isolated channels?
+\end{enumerate}
+
+Addressing these questions will establish whether computational multimodal sequence modeling can approximate interpersonal attraction judgments and identify the extent to which temporal dynamics and cross-modal integration contribute to predictive performance.
+
 
 \section{Data Collection} 
 The quality and reliability of affective computing research depend critically on rigorous and multimodal data collection pipelines capable of capturing complex human emotional expressions. Traditional laboratory acquisition frameworks prioritize controlled environments and high-fidelity measurements; however, they often suffer from limited ecological validity and reduced generalizability \citep{sherstinsky2022}. Recent research has therefore shifted toward hybrid approaches that integrate audiovisual, physiological, and behavioral modalities collected in more naturalistic settings, thereby enabling richer affective modeling \citep{kraack2023,sherstinsky2022}. Following this methodological direction, our study implements a multimodal extraction pipeline designed to capture fine-grained facial, acoustic, and bodily behavioral cues from video recordings. The complete pipeline is summarized below. 
@@ -130,6 +144,16 @@ f_\theta: \mathbb{R}^{T\times D} \to [0,1], \qquad \hat{y} = f_\theta(\mathbf{X}
 
 where $\theta$ denotes all learnable parameters.
 
+\subsection{Baseline Model for Comparison}
+
+To evaluate the contribution of temporal sequence modeling (RQ2), we compare the LSTM-based approach against a baseline that uses time-averaged features. For each 15-second sequence $\mathbf{X} \in \mathbb{R}^{15 \times 28}$, we compute the temporal mean: 
+
+\[
+\bar{\mathbf{x}} = \frac{1}{T} \sum_{t=1}^{T} \mathbf{x}_t \in \mathbb{R}^{28}. 
+\]
+
+This averaged feature vector is used to train a logistic regression classifier with balanced class weights and maximum 1000 iterations. The baseline model has access to the same multimodal information but lacks temporal structure, allowing us to isolate the contribution of sequence modeling. 
+
 \subsection{Training Objective and Optimization}
 
 The model is trained to minimize \textbf{binary cross-entropy}:
@@ -186,7 +210,33 @@ Our study extends this multimodal perspective in two important ways. First, we m
 
 \section{Results and Conclusions}
 
-The model achieved a validation accuracy of 92\% with high precision (96.6\%) and recall (92.1\%) on the positive class (attraction). These results suggest that short multimodal behavioral sequences contain predictive information about binary romantic attraction, supporting the motivation for temporal and multimodal modeling \citep{2017multimodalmachinelearningsurvey, kraack2023}.  However, several limitations should be noted.  First, the dataset exhibits class imbalance (71\% attracted vs.  29\% not attracted), which may influence model predictions. Second, the relatively small validation set (300 samples) limits the strength of generalization claims. Third, while the integrated feature set combining facial, bodily, vocal, and linguistic signals shows promise \citep{didonato2023, schirmer2025}, systematic ablation studies are needed to determine the relative contribution of each modality.
+The obtained results directly address the three research questions posed in this article. 
+
+
+\begin{table}[h]
+\centering
+\caption{Performance comparison:  LSTM sequence model vs. time-averaged baseline}
+\label{tab:comparison}
+\begin{tabular}{lccc}
+\hline
+\textbf{Model} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} \\
+\hline
+Logistic Regression (time-avg.) & 0.747 & 0.916 & 0.710 \\
+Stacked LSTM (sequences) & 0.920 & 0.966 & 0.921 \\
+\hline
+\textbf{Absolute Improvement} & +0.173 & +0.050 & +0.211 \\
+\textbf{Relative Improvement} & +23.2\% & +5.5\% & +29.7\% \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Regarding RQ1 (predictive power):} The model achieved a validation accuracy of 92\% with precision of 96.6\% and recall of 92.1\% on the positive class (attraction), demonstrating that short multimodal behavioral sequences do contain predictive information about binary romantic attraction \citep{2017multimodalmachinelearningsurvey, kraack2023}.
+
+\textbf{Regarding RQ2 (temporal modeling):} To assess the value of temporal sequence modeling, we compared the LSTM against a logistic regression baseline using time-averaged features. The baseline achieved an accuracy of 74.7\%, precision of 91.6\%, and recall of 71.0\%. The LSTM model outperformed the baseline by 17.3 percentage points in accuracy (23.2\% relative improvement) and 21.1 percentage points in recall (29.7\% relative improvement), confirming that temporal dependencies across the 15-second windows provide substantial predictive information beyond static feature summaries \citep{schmidt2019, lebois2018}. The particularly large improvement in recall indicates that the LSTM is better at detecting subtle attraction cues that unfold over time, supporting the hypothesis that attraction signals are inherently dynamic and sequential in nature \citep{chang2021}.
+
+\textbf{Regarding RQ3 (multimodal integration):} While the integrated feature set combining facial, bodily, vocal, and linguistic signals shows promise \citep{didonato2023, schirmer2025}, systematic ablation studies are needed to quantify the relative contribution of each modality and confirm the advantage of multimodal integration over single-channel approaches. 
+
+However, several limitations should be noted.  First, the dataset exhibits class imbalance (71\% attracted vs. 29\% not attracted), which may influence model predictions. Second, the relatively small validation set (300 samples) limits the strength of generalization claims.  Third, we have not yet conducted the ablation studies necessary to definitively answer RQ3.
 
 Several aspects of the experimental design support the validity of these conclusions. Temporal segmentation and per-second aggregation ensure that predictions are based on dynamic interaction patterns rather than isolated frames \citep{haidet2009}. Participant-level data splitting prevents information leakage between training and validation sets, promoting generalization to unseen individuals. Furthermore, deterministic handling of missing modalities through zero filling avoids introducing artificial correlations via imputation. Together, these design choices strengthen confidence that the reported performance reflects learned multimodal behavioral patterns rather than artifacts of preprocessing or evaluation.
 
