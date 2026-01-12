@@ -1,0 +1,88 @@
+second,speaker,compound,pos,neu,neg,text
+0,Speaker A,0.3612,0.714,0.286,0.0,Thank you.
+2,Speaker B,0.7906,0.7,0.3,0.0,"It's nice, I love it."
+3,Speaker A,0.1779,0.63,0.37,0.0,From Amazon.
+4,Speaker B,-0.0516,0.393,0.179,0.429,"Oh, shoot, yeah."
+5,Speaker B,0.4939,0.457,0.543,0.0,"No, I'm like, Amazon is the place."
+6,Speaker B,0.4939,0.457,0.543,0.0,"No, I'm like, Amazon is the place."
+7,Speaker B,0.4939,0.457,0.543,0.0,"No, I'm like, Amazon is the place."
+8,Speaker A,0.0,0.0,1.0,0.0,Are you into fashion?
+9,Speaker B,0.6369,0.677,0.323,0.0,I love fashion.
+10,Speaker B,0.0,0.0,1.0,0.0,I'm a big fashion person.
+11,Speaker B,0.0,0.0,1.0,0.0,I'm a big fashion person.
+12,Speaker B,0.0,0.0,1.0,0.0,I heard you saying that you used to do music when you were young.
+13,Speaker B,0.0,0.0,1.0,0.0,What did you do?
+14,Speaker A,-0.1531,0.26,0.417,0.323,"I made like, sad R&B music."
+15,Speaker B,-0.4767,0.0,0.244,0.756,Sad R&B?
+16,Speaker B,-0.4767,0.0,0.244,0.756,Sad R&B?
+17,Speaker A,0.296,0.423,0.577,0.0,"Yeah, it was like—"
+18,Speaker A,0.0,0.0,1.0,0.0,It's what I make now.
+19,Speaker A,0.3612,0.385,0.615,0.0,"It was like during COVID,"
+20,Speaker A,0.0,0.0,1.0,0.0,I was just in my room.
+21,Speaker A,-0.4767,0.0,0.392,0.608,I was sad.
+22,Speaker B,0.2263,0.388,0.612,0.0,"This was recent, okay."
+23,Speaker A,0.0,0.0,1.0,0.0,I haven't made any since.
+24,Speaker B,0.4939,0.808,0.192,0.0,"Okay, that's fair."
+25,Speaker A,0.0,0.0,1.0,0.0,Do you make music right now?
+26,Speaker B,-0.4767,0.0,0.78,0.22,"I do, I'm a singer. I write a lot of sad R&B."
+27,Speaker B,-0.4767,0.0,0.78,0.22,"I do, I'm a singer. I write a lot of sad R&B."
+28,Speaker B,-0.4767,0.0,0.78,0.22,"I do, I'm a singer. I write a lot of sad R&B."
+29,Speaker B,-0.4767,0.0,0.78,0.22,"I do, I'm a singer. I write a lot of sad R&B."
+30,Speaker B,-0.4767,0.0,0.78,0.22,"I do, I'm a singer. I write a lot of sad R&B."
+31,Speaker A,0.0,0.0,1.0,0.0,Did you grow up always by music?
+32,Speaker B,0.0,0.0,1.0,0.0,I did.
+33,Speaker B,0.0,0.0,1.0,0.0,I grew up singing in the church.
+34,Speaker A,0.4767,1.0,0.0,0.0,"Okay, yeah."
+35,Speaker A,0.4767,1.0,0.0,0.0,"Okay, yeah."
+36,Speaker B,0.0,0.0,1.0,0.0,That's my whole life.
+37,Speaker A,0.25,0.4,0.6,0.0,Is music the dream?
+38,Speaker A,0.25,0.4,0.6,0.0,Is music the dream?
+39,Speaker B,0.25,0.4,0.6,0.0,Music is the dream.
+40,Speaker B,0.4497,0.371,0.629,0.0,"But truth, so I'm doing it."
+41,Speaker B,0.4497,0.371,0.629,0.0,"But truth, so I'm doing it."
+42,Speaker B,0.0,0.0,1.0,0.0,"There's a show called ""Lady in the Lake"", Apple TV."
+43,Speaker B,0.0,0.0,1.0,0.0,"There's a show called ""Lady in the Lake"", Apple TV."
+44,Speaker B,0.0,0.0,1.0,0.0,And my voice is the only female voice.
+45,Speaker B,0.0,0.0,1.0,0.0,And my voice is the only female voice.
+46,Speaker B,0.0,0.0,1.0,0.0,And my voice is the only female voice.
+47,Speaker B,0.0,0.0,1.0,0.0,And my voice is the only female voice.
+48,Speaker B,0.4019,0.197,0.803,0.0,"Yes, my voice is the only female voice throughout the entire series."
+49,Speaker B,0.4019,0.197,0.803,0.0,"Yes, my voice is the only female voice throughout the entire series."
+50,Speaker B,0.4019,0.197,0.803,0.0,"Yes, my voice is the only female voice throughout the entire series."
+51,Speaker B,0.4019,0.197,0.803,0.0,"Yes, my voice is the only female voice throughout the entire series."
+52,Speaker B,0.3612,0.238,0.762,0.0,And that was like my biggest accomplishment thus far.
+53,Speaker B,0.3612,0.238,0.762,0.0,And that was like my biggest accomplishment thus far.
+54,Speaker B,0.3612,0.238,0.762,0.0,And that was like my biggest accomplishment thus far.
+55,Speaker B,0.0,0.0,1.0,0.0,And the composer is currently putting it up for consideration for Grammy nominations.
+56,Speaker B,0.0,0.0,1.0,0.0,And the composer is currently putting it up for consideration for Grammy nominations.
+57,Speaker B,0.0,0.0,1.0,0.0,And the composer is currently putting it up for consideration for Grammy nominations.
+58,Speaker B,0.4509,0.496,0.504,0.0,So I'm very excited.
+59,Speaker B,0.4509,0.496,0.504,0.0,So I'm very excited.
+60,Speaker B,0.4509,0.496,0.504,0.0,So I'm very excited.
+61,Speaker B,0.0,0.0,1.0,0.0,"I just wanna know, this is a quick question."
+62,Speaker B,0.0,0.0,1.0,0.0,"I just wanna know, this is a quick question."
+63,Speaker B,0.4588,0.333,0.667,0.0,What is your favorite thing about yourself?
+64,Speaker B,0.4588,0.333,0.667,0.0,What is your favorite thing about yourself?
+65,Speaker A,0.4588,0.6,0.4,0.0,My favorite thing?
+66,Speaker A,0.4588,0.6,0.4,0.0,My favorite thing?
+67,Speaker A,0.4588,0.6,0.4,0.0,My favorite thing?
+68,Speaker B,0.1531,0.211,0.789,0.0,It could be physical or emotional or—
+69,Speaker A,0.8707,0.356,0.644,0.0,"I think it's that I, maybe it's not about me, but I have really good friends, I think."
+70,Speaker A,0.8707,0.356,0.644,0.0,"I think it's that I, maybe it's not about me, but I have really good friends, I think."
+71,Speaker A,0.8707,0.356,0.644,0.0,"I think it's that I, maybe it's not about me, but I have really good friends, I think."
+72,Speaker A,0.0,0.0,1.0,0.0,I think I spend a lot of time—
+73,Speaker A,0.0,0.0,1.0,0.0,I think I spend a lot of time—
+74,Speaker B,0.0,0.0,1.0,0.0,With the people in your life.
+75,Speaker A,0.8685,0.395,0.605,0.0,"Trying to get people that really care, that I really care about and that have cared about me."
+76,Speaker A,0.8685,0.395,0.605,0.0,"Trying to get people that really care, that I really care about and that have cared about me."
+77,Speaker B,0.6369,0.808,0.192,0.0,Love that.
+78,Speaker B,0.6369,0.808,0.192,0.0,Love that.
+79,Speaker B,0.6369,0.808,0.192,0.0,Love that.
+80,Speaker A,0.5217,0.181,0.741,0.078,"So I recently lost my job a couple months ago, but I've been staying with my friends and stuff."
+81,Speaker A,0.5217,0.181,0.741,0.078,"So I recently lost my job a couple months ago, but I've been staying with my friends and stuff."
+82,Speaker A,0.5217,0.181,0.741,0.078,"So I recently lost my job a couple months ago, but I've been staying with my friends and stuff."
+83,Speaker A,0.6124,0.455,0.545,0.0,I'm glad you have the chance to talk.
+84,Speaker A,0.6124,0.455,0.545,0.0,I'm glad you have the chance to talk.
+85,Speaker A,0.6124,0.455,0.545,0.0,I'm glad you have the chance to talk.
+86,Speaker B,0.0,0.0,1.0,0.0,"If that's it, that's it."
+87,Speaker B,0.0,0.0,1.0,0.0,"If that's it, that's it."

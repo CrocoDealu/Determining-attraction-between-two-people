@@ -1,0 +1,80 @@
+second,speaker,compound,pos,neu,neg,text
+6,Speaker B,0.0,0.0,1.0,0.0,"What's up, Stephen?"
+7,Speaker B,0.0,0.0,1.0,0.0,"What's up, Stephen?"
+8,Speaker B,0.0,0.0,1.0,0.0,"What's up, Stephen?"
+9,Speaker A,0.0,0.0,1.0,0.0,"Miette, is that correct?"
+10,Speaker B,0.296,0.423,0.577,0.0,"Yeah, you got it."
+11,Speaker B,0.296,0.423,0.577,0.0,"Yeah, you got it."
+12,Speaker A,0.3612,0.714,0.286,0.0,Thank you.
+13,Speaker A,0.0,0.0,1.0,0.0,What is uh what what ethnicity are you?
+14,Speaker A,0.0,0.0,1.0,0.0,What is uh what what ethnicity are you?
+15,Speaker A,0.0,0.0,1.0,0.0,What is uh what what ethnicity are you?
+16,Speaker B,0.3612,0.385,0.615,0.0,Um I'm like fullblood German.
+17,Speaker A,0.2263,1.0,0.0,0.0,Okay.
+18,Speaker B,0.296,1.0,0.0,0.0,Yeah.
+19,Speaker B,0.296,1.0,0.0,0.0,Yeah.
+20,Speaker B,0.296,1.0,0.0,0.0,Yeah.
+21,Speaker A,0.0,0.0,1.0,0.0,Did you grow up in Germany or
+22,Speaker A,0.0,0.0,1.0,0.0,Did you grow up in Germany or
+23,Speaker B,0.3612,0.172,0.828,0.0,"No, I have um or my family has like a castle in Germany."
+24,Speaker A,0.2263,1.0,0.0,0.0,Okay.
+25,Speaker B,0.296,1.0,0.0,0.0,Yeah.
+26,Speaker B,0.0,0.0,1.0,0.0,What's in the castle?
+27,Speaker B,0.3612,0.385,0.615,0.0,Probably like suits of armor.
+28,Speaker A,0.2263,1.0,0.0,0.0,Okay.
+29,Speaker B,0.5719,0.37,0.63,0.0,Really? Things of that sort. There's like a moat. Yeah.
+30,Speaker B,0.5719,0.37,0.63,0.0,Really? Things of that sort. There's like a moat. Yeah.
+31,Speaker A,0.2263,0.16,0.84,0.0,"So, okay. Here's a question. If you were in medieval times,"
+32,Speaker B,-0.0762,0.0,0.885,0.115,I was gonna ask the same question. I'm not even kidding.
+33,Speaker B,-0.0762,0.0,0.885,0.115,I was gonna ask the same question. I'm not even kidding.
+34,Speaker B,-0.0762,0.0,0.885,0.115,I was gonna ask the same question. I'm not even kidding.
+35,Speaker A,0.2263,0.192,0.808,0.0,Okay. What would you be? I know my answer.
+36,Speaker A,0.2263,0.192,0.808,0.0,Okay. What would you be? I know my answer.
+37,Speaker A,0.2263,0.192,0.808,0.0,Okay. What would you be? I know my answer.
+38,Speaker A,0.0,0.0,1.0,0.0,"I do too. Um, my roommate has always proposed this"
+39,Speaker A,0.0,0.0,1.0,0.0,"I do too. Um, my roommate has always proposed this"
+40,Speaker A,0.0,0.0,1.0,0.0,"I do too. Um, my roommate has always proposed this"
+41,Speaker A,0.0,0.0,1.0,0.0,"I do too. Um, my roommate has always proposed this"
+42,Speaker A,0.0,0.0,1.0,0.0,"I do too. Um, my roommate has always proposed this"
+43,Speaker A,0.0,0.0,1.0,0.0,"I do too. Um, my roommate has always proposed this"
+44,Speaker A,0.6124,0.333,0.667,0.0,question whenever we meet new people about like what medieval like person
+45,Speaker A,0.6124,0.333,0.667,0.0,question whenever we meet new people about like what medieval like person
+46,Speaker A,0.6124,0.333,0.667,0.0,question whenever we meet new people about like what medieval like person
+47,Speaker A,0.6124,0.333,0.667,0.0,question whenever we meet new people about like what medieval like person
+48,Speaker A,0.8908,0.31,0.69,0.0,"would you be? And the fact that she also thought of it was very funny to me. I was like, okay, like there's a connection that is like kind of happening right now."
+49,Speaker A,0.8908,0.31,0.69,0.0,"would you be? And the fact that she also thought of it was very funny to me. I was like, okay, like there's a connection that is like kind of happening right now."
+50,Speaker A,0.8908,0.31,0.69,0.0,"would you be? And the fact that she also thought of it was very funny to me. I was like, okay, like there's a connection that is like kind of happening right now."
+51,Speaker A,0.8908,0.31,0.69,0.0,"would you be? And the fact that she also thought of it was very funny to me. I was like, okay, like there's a connection that is like kind of happening right now."
+52,Speaker A,0.8908,0.31,0.69,0.0,"would you be? And the fact that she also thought of it was very funny to me. I was like, okay, like there's a connection that is like kind of happening right now."
+53,Speaker A,0.8908,0.31,0.69,0.0,"would you be? And the fact that she also thought of it was very funny to me. I was like, okay, like there's a connection that is like kind of happening right now."
+54,Speaker B,0.854,0.442,0.449,0.109,I would be like a noble like with those long curly shoes most definitely. Or like a thief or something.
+55,Speaker B,0.854,0.442,0.449,0.109,I would be like a noble like with those long curly shoes most definitely. Or like a thief or something.
+56,Speaker B,0.854,0.442,0.449,0.109,I would be like a noble like with those long curly shoes most definitely. Or like a thief or something.
+57,Speaker B,0.854,0.442,0.449,0.109,I would be like a noble like with those long curly shoes most definitely. Or like a thief or something.
+58,Speaker B,0.854,0.442,0.449,0.109,I would be like a noble like with those long curly shoes most definitely. Or like a thief or something.
+59,Speaker B,0.854,0.442,0.449,0.109,I would be like a noble like with those long curly shoes most definitely. Or like a thief or something.
+60,Speaker A,0.128,0.302,0.432,0.266,What are you stealing? Apart from my heart.
+61,Speaker A,0.128,0.302,0.432,0.266,What are you stealing? Apart from my heart.
+62,Speaker A,0.128,0.302,0.432,0.266,What are you stealing? Apart from my heart.
+63,Speaker A,0.128,0.302,0.432,0.266,What are you stealing? Apart from my heart.
+68,Speaker A,-0.4939,0.0,0.556,0.444,You're going to steal fruits?
+69,Speaker A,-0.4939,0.0,0.556,0.444,You're going to steal fruits?
+77,Speaker A,0.765,0.336,0.664,0.0,"Just like, you know, cuz I'm sure, you know, everyone was trying to walk. So, having nice shoes."
+78,Speaker A,0.765,0.336,0.664,0.0,"Just like, you know, cuz I'm sure, you know, everyone was trying to walk. So, having nice shoes."
+79,Speaker A,0.765,0.336,0.664,0.0,"Just like, you know, cuz I'm sure, you know, everyone was trying to walk. So, having nice shoes."
+80,Speaker A,0.765,0.336,0.664,0.0,"Just like, you know, cuz I'm sure, you know, everyone was trying to walk. So, having nice shoes."
+81,Speaker A,0.765,0.336,0.664,0.0,"Just like, you know, cuz I'm sure, you know, everyone was trying to walk. So, having nice shoes."
+95,Speaker A,0.0,0.0,1.0,0.0,"Oh, no."
+96,Speaker A,0.0,0.0,1.0,0.0,"Oh, no."
+102,Speaker A,0.2263,1.0,0.0,0.0,Okay.
+103,Speaker A,0.2263,1.0,0.0,0.0,Okay.
+114,Speaker A,0.6249,0.672,0.328,0.0,"Oh, that's awesome."
+116,Speaker A,0.2263,1.0,0.0,0.0,Okay.
+117,Speaker A,0.2263,1.0,0.0,0.0,Okay.
+134,Speaker A,0.765,0.688,0.312,0.0,Stuff like that. That's awesome.
+135,Speaker A,0.765,0.688,0.312,0.0,Stuff like that. That's awesome.
+136,Speaker A,0.765,0.688,0.312,0.0,Stuff like that. That's awesome.
+143,Speaker A,0.0,0.0,1.0,0.0,is there something a project you're working on?
+144,Speaker A,0.0,0.0,1.0,0.0,is there something a project you're working on?
+145,Speaker A,0.0,0.0,1.0,0.0,is there something a project you're working on?
+146,Speaker A,0.0,0.0,1.0,0.0,is there something a project you're working on?

@@ -1,0 +1,77 @@
+second,speaker,compound,pos,neu,neg,text
+1,Speaker A,-0.7717,0.0,0.23,0.77,I'm nervous as hell.
+2,Speaker A,-0.7717,0.0,0.23,0.77,I'm nervous as hell.
+3,Speaker B,-0.5688,0.0,0.352,0.648,Really? You're lying.
+4,Speaker B,-0.5688,0.0,0.352,0.648,Really? You're lying.
+5,Speaker B,0.4404,0.266,0.734,0.0,You're just saying that to make me feel better.
+6,Speaker A,0.3612,0.161,0.839,0.0,"No, I'm not. So, you work at a gym. Do you like working out?"
+7,Speaker A,0.3612,0.161,0.839,0.0,"No, I'm not. So, you work at a gym. Do you like working out?"
+8,Speaker A,0.3612,0.161,0.839,0.0,"No, I'm not. So, you work at a gym. Do you like working out?"
+9,Speaker B,0.7906,0.364,0.636,0.0,I do. I love working out. I want to become a Pilates instructor. That's like my goal.
+10,Speaker B,0.7906,0.364,0.636,0.0,I do. I love working out. I want to become a Pilates instructor. That's like my goal.
+11,Speaker B,0.7906,0.364,0.636,0.0,I do. I love working out. I want to become a Pilates instructor. That's like my goal.
+12,Speaker B,0.7906,0.364,0.636,0.0,I do. I love working out. I want to become a Pilates instructor. That's like my goal.
+13,Speaker A,0.296,1.0,0.0,0.0,Yeah.
+14,Speaker B,0.296,1.0,0.0,0.0,Yeah.
+15,Speaker A,0.2263,1.0,0.0,0.0,Okay.
+16,Speaker A,0.2263,1.0,0.0,0.0,Okay.
+17,Speaker B,0.3612,0.385,0.615,0.0,Do you like working out?
+18,Speaker B,0.3612,0.385,0.615,0.0,Do you like working out?
+19,Speaker A,0.4019,0.184,0.816,0.0,Yes. I was actually a personal trainer for a short period of time.
+20,Speaker A,0.4019,0.184,0.816,0.0,Yes. I was actually a personal trainer for a short period of time.
+21,Speaker A,0.5574,0.315,0.685,0.0,Okay. Do you have any facts about yourself that might be interesting?
+22,Speaker A,0.5574,0.315,0.685,0.0,Okay. Do you have any facts about yourself that might be interesting?
+23,Speaker A,0.5574,0.315,0.685,0.0,Okay. Do you have any facts about yourself that might be interesting?
+24,Speaker A,0.5574,0.315,0.685,0.0,Okay. Do you have any facts about yourself that might be interesting?
+25,Speaker A,0.5574,0.315,0.685,0.0,Okay. Do you have any facts about yourself that might be interesting?
+26,Speaker A,0.5574,0.315,0.685,0.0,Okay. Do you have any facts about yourself that might be interesting?
+27,Speaker A,0.5574,0.315,0.685,0.0,Okay. Do you have any facts about yourself that might be interesting?
+28,Speaker B,0.25,0.25,0.6,0.15,"That's a tough question. Um, I like photography."
+29,Speaker B,0.25,0.25,0.6,0.15,"That's a tough question. Um, I like photography."
+30,Speaker B,0.25,0.25,0.6,0.15,"That's a tough question. Um, I like photography."
+31,Speaker B,0.0,0.0,1.0,0.0,I do photography.
+32,Speaker B,0.0,0.0,1.0,0.0,I do photography.
+33,Speaker B,0.0,0.0,1.0,0.0,I do photography.
+34,Speaker A,0.2263,1.0,0.0,0.0,Okay.
+35,Speaker B,0.2617,0.19,0.81,0.0,"Yeah. I haven't been doing it recently, but I want to get back into it."
+36,Speaker A,0.2263,1.0,0.0,0.0,Okay.
+37,Speaker A,0.6124,0.185,0.815,0.0,"Um, I literally have a I have a camera that I bought. It was like a $600 camera and I use it like twice."
+38,Speaker A,0.6124,0.185,0.815,0.0,"Um, I literally have a I have a camera that I bought. It was like a $600 camera and I use it like twice."
+39,Speaker A,0.6124,0.185,0.815,0.0,"Um, I literally have a I have a camera that I bought. It was like a $600 camera and I use it like twice."
+40,Speaker B,0.0,0.0,1.0,0.0,For what?
+41,Speaker B,0.0,0.0,1.0,0.0,For what?
+42,Speaker B,0.0,0.0,1.0,0.0,For what?
+43,Speaker B,0.0,0.0,1.0,0.0,For what?
+44,Speaker A,0.1744,0.137,0.764,0.099,Photography. I tried to make like one video and it didn't go well and I was
+45,Speaker A,0.2023,0.489,0.213,0.298,"like, ""Well, this was waste."""
+46,Speaker A,0.2023,0.489,0.213,0.298,"like, ""Well, this was waste."""
+47,Speaker B,0.0,0.0,1.0,0.0,"Oh videography, not photography."
+48,Speaker A,0.2732,0.208,0.792,0.0,"Well, it the camera I got it does both."
+49,Speaker A,0.2732,0.208,0.792,0.0,"Well, it the camera I got it does both."
+50,Speaker A,0.2732,0.208,0.792,0.0,"Well, it the camera I got it does both."
+51,Speaker A,0.2732,0.208,0.792,0.0,"Well, it the camera I got it does both."
+52,Speaker B,0.5106,0.398,0.602,0.0,"Wait, I have a fun question."
+53,Speaker B,0.5106,0.398,0.602,0.0,"Wait, I have a fun question."
+54,Speaker A,0.0,0.0,1.0,0.0,What's up?
+55,Speaker A,0.0,0.0,1.0,0.0,A fruit.
+56,Speaker A,0.0,0.0,1.0,0.0,A fruit.
+57,Speaker B,0.4019,0.574,0.426,0.0,A fruit. Yes.
+58,Speaker B,0.4019,0.574,0.426,0.0,A fruit. Yes.
+59,Speaker A,-0.5423,0.0,0.632,0.368,Is it bad if I say watermelon?
+60,Speaker A,-0.5423,0.0,0.632,0.368,Is it bad if I say watermelon?
+61,Speaker B,0.0,0.0,1.0,0.0,Why would that be? No.
+62,Speaker B,0.0,0.0,1.0,0.0,Why would that be? No.
+63,Speaker B,0.0,0.0,1.0,0.0,Why would that be? No.
+73,Speaker B,0.0,0.0,1.0,0.0,I would be cherries.
+74,Speaker B,0.0,0.0,1.0,0.0,I would be cherries.
+75,Speaker B,0.0,0.0,1.0,0.0,I would be cherries.
+76,Speaker A,0.0,0.0,1.0,0.0,Cherries. Why cherries?
+77,Speaker B,0.6808,0.433,0.449,0.118,Yeah. I feel like I'm just biased because they're my favorite fruit.
+78,Speaker B,0.6808,0.433,0.449,0.118,Yeah. I feel like I'm just biased because they're my favorite fruit.
+79,Speaker B,0.6808,0.433,0.449,0.118,Yeah. I feel like I'm just biased because they're my favorite fruit.
+80,Speaker B,0.6808,0.433,0.449,0.118,Yeah. I feel like I'm just biased because they're my favorite fruit.
+81,Speaker B,0.0,0.0,1.0,0.0,What do you think I would be?
+82,Speaker B,0.0,0.0,1.0,0.0,What do you think I would be?
+83,Speaker A,0.0,0.0,1.0,0.0,Cherries!
+84,Speaker B,0.0,0.0,1.0,0.0,Right answer!
+85,Speaker B,0.0,0.0,1.0,0.0,Right answer!

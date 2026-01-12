@@ -1,0 +1,102 @@
+second,speaker,compound,pos,neu,neg,text
+1,Speaker A,0.0,0.0,1.0,0.0,"Josh,"
+2,Speaker B,0.0,0.0,1.0,0.0,How's it going?
+3,Speaker B,0.0,0.0,1.0,0.0,How's it going?
+4,Speaker A,0.0,0.0,1.0,0.0,How's it going?
+5,Speaker B,0.7269,0.55,0.45,0.0,It's going pretty good. How about you?
+6,Speaker A,-0.204,0.0,0.795,0.205,"Oh, you know, it's going a little nervous."
+7,Speaker A,-0.204,0.0,0.795,0.205,"Oh, you know, it's going a little nervous."
+8,Speaker B,0.3612,0.217,0.783,0.0,Tell me a bit about yourself. I like your boots.
+9,Speaker B,0.3612,0.217,0.783,0.0,Tell me a bit about yourself. I like your boots.
+10,Speaker A,0.4019,0.574,0.426,0.0,I appreciate it.
+11,Speaker A,0.4019,0.574,0.426,0.0,I appreciate it.
+12,Speaker B,0.7717,0.401,0.599,0.0,"You kind of give me like Post Malone vibes, which I love."
+13,Speaker B,0.7717,0.401,0.599,0.0,"You kind of give me like Post Malone vibes, which I love."
+14,Speaker B,0.8555,0.737,0.263,0.0,I love I love that.
+15,Speaker B,0.8555,0.737,0.263,0.0,I love I love that.
+16,Speaker A,0.2732,0.231,0.769,0.0,"Well, I'm also from North Texas, so you"
+17,Speaker B,0.2263,0.275,0.725,0.0,Okay. Is he from North Texas?
+18,Speaker B,0.2263,0.275,0.725,0.0,Okay. Is he from North Texas?
+19,Speaker A,0.7783,0.423,0.577,0.0,Yeah. Yeah. Yeah. Yeah. I moved out here a few years ago. I work in advertising.
+20,Speaker A,0.7783,0.423,0.577,0.0,Yeah. Yeah. Yeah. Yeah. I moved out here a few years ago. I work in advertising.
+21,Speaker A,0.7783,0.423,0.577,0.0,Yeah. Yeah. Yeah. Yeah. I moved out here a few years ago. I work in advertising.
+22,Speaker A,0.7783,0.423,0.577,0.0,Yeah. Yeah. Yeah. Yeah. I moved out here a few years ago. I work in advertising.
+23,Speaker A,0.0,0.0,1.0,0.0,"If you ever see a Direct TV or Jack in the Box ad, I probably had something to do."
+24,Speaker B,0.3612,0.128,0.872,0.0,"I literally went there last week. Oh, there we go. Can you get like discounts and [mumble] too?"
+25,Speaker B,0.3612,0.128,0.872,0.0,"I literally went there last week. Oh, there we go. Can you get like discounts and [mumble] too?"
+26,Speaker B,0.3612,0.128,0.872,0.0,"I literally went there last week. Oh, there we go. Can you get like discounts and [mumble] too?"
+27,Speaker A,0.6369,0.394,0.606,0.0,"I wish. No. Oh, like the tiny tacos are so"
+28,Speaker A,0.6369,0.394,0.606,0.0,"I wish. No. Oh, like the tiny tacos are so"
+29,Speaker A,0.6369,0.394,0.606,0.0,"I wish. No. Oh, like the tiny tacos are so"
+30,Speaker B,0.296,0.268,0.732,0.0,"Yeah, I know. That's what always says."
+31,Speaker B,0.296,0.268,0.732,0.0,"Yeah, I know. That's what always says."
+32,Speaker B,0.296,0.268,0.732,0.0,"Yeah, I know. That's what always says."
+33,Speaker A,-0.0772,0.0,0.698,0.302,"Oh, sorry. Go ahead."
+34,Speaker B,0.6369,0.375,0.625,0.0,I said I love for the big tacos.
+35,Speaker B,0.6369,0.375,0.625,0.0,I said I love for the big tacos.
+36,Speaker A,0.7722,0.372,0.628,0.0,Maybe that can be like our wedding cake. Like a big tiny taco. Kind of cute.
+37,Speaker A,0.7722,0.372,0.628,0.0,Maybe that can be like our wedding cake. Like a big tiny taco. Kind of cute.
+38,Speaker A,0.7722,0.372,0.628,0.0,Maybe that can be like our wedding cake. Like a big tiny taco. Kind of cute.
+39,Speaker A,0.7722,0.372,0.628,0.0,Maybe that can be like our wedding cake. Like a big tiny taco. Kind of cute.
+40,Speaker A,0.7722,0.372,0.628,0.0,Maybe that can be like our wedding cake. Like a big tiny taco. Kind of cute.
+41,Speaker A,-0.0772,0.0,0.698,0.302,Serious question for you.
+42,Speaker B,0.2263,1.0,0.0,0.0,Okay.
+43,Speaker B,0.2263,1.0,0.0,0.0,Okay.
+44,Speaker A,0.3612,0.333,0.667,0.0,"You know, like a Pringles can."
+45,Speaker A,0.3612,0.333,0.667,0.0,"You know, like a Pringles can."
+46,Speaker B,0.296,0.688,0.312,0.0,"Yeah, totally."
+47,Speaker A,0.4767,0.295,0.57,0.135,Do you like dump out the Pringles or do you stick your hand in?
+48,Speaker B,0.6249,0.242,0.758,0.0,"Definitely stick it in, but then you start like getting towards the bottom and it gets a little"
+49,Speaker B,0.6249,0.242,0.758,0.0,"Definitely stick it in, but then you start like getting towards the bottom and it gets a little"
+50,Speaker B,0.6249,0.242,0.758,0.0,"Definitely stick it in, but then you start like getting towards the bottom and it gets a little"
+51,Speaker B,0.6249,0.242,0.758,0.0,"Definitely stick it in, but then you start like getting towards the bottom and it gets a little"
+52,Speaker B,0.6249,0.242,0.758,0.0,"Definitely stick it in, but then you start like getting towards the bottom and it gets a little"
+56,Speaker B,0.0,0.0,1.0,0.0,What about you though?
+57,Speaker B,0.0,0.0,1.0,0.0,What about you though?
+58,Speaker A,0.7964,0.73,0.27,0.0,"Yeah, I'm definitely sticking my hand."
+59,Speaker B,0.4767,0.577,0.423,0.0,"Okay, there we go. Yeah."
+60,Speaker B,0.4767,0.577,0.423,0.0,"Okay, there we go. Yeah."
+76,Speaker B,0.0,0.0,1.0,0.0,"You do box, too."
+77,Speaker B,0.0,0.0,1.0,0.0,"You do box, too."
+78,Speaker B,0.0,0.0,1.0,0.0,"You do box, too."
+79,Speaker A,0.296,0.268,0.732,0.0,Yeah. I did a boxing match once.
+90,Speaker B,0.4588,0.375,0.625,0.0,What's your favorite thing you've crocheted?
+91,Speaker A,0.3612,0.294,0.706,0.0,"Um, I did a like shirt once."
+92,Speaker A,0.3612,0.294,0.706,0.0,"Um, I did a like shirt once."
+93,Speaker A,0.3415,0.419,0.408,0.173,"Okay. Yeah, that was kind of hard."
+94,Speaker A,0.3415,0.419,0.408,0.173,"Okay. Yeah, that was kind of hard."
+95,Speaker A,0.3415,0.419,0.408,0.173,"Okay. Yeah, that was kind of hard."
+96,Speaker B,0.0,0.0,1.0,0.0,"But, um, how long does that take?"
+97,Speaker B,0.0,0.0,1.0,0.0,"But, um, how long does that take?"
+98,Speaker A,0.7906,0.286,0.714,0.0,"Honestly, I could rot my bed for like a long time, so I I did it for like nine hours, I think, once."
+99,Speaker A,0.7906,0.286,0.714,0.0,"Honestly, I could rot my bed for like a long time, so I I did it for like nine hours, I think, once."
+100,Speaker A,0.7906,0.286,0.714,0.0,"Honestly, I could rot my bed for like a long time, so I I did it for like nine hours, I think, once."
+101,Speaker A,0.7906,0.286,0.714,0.0,"Honestly, I could rot my bed for like a long time, so I I did it for like nine hours, I think, once."
+105,Speaker B,-0.0572,0.0,0.851,0.149,I don't want to get outed for that.
+106,Speaker B,-0.0572,0.0,0.851,0.149,I don't want to get outed for that.
+109,Speaker B,0.9685,0.521,0.406,0.073,"I feel like I just love to watch a lot of like shitty TV, whatever it is. Like, I really love like reality like Love Island UK, you know?"
+110,Speaker B,0.9685,0.521,0.406,0.073,"I feel like I just love to watch a lot of like shitty TV, whatever it is. Like, I really love like reality like Love Island UK, you know?"
+111,Speaker B,0.9685,0.521,0.406,0.073,"I feel like I just love to watch a lot of like shitty TV, whatever it is. Like, I really love like reality like Love Island UK, you know?"
+112,Speaker B,0.9685,0.521,0.406,0.073,"I feel like I just love to watch a lot of like shitty TV, whatever it is. Like, I really love like reality like Love Island UK, you know?"
+113,Speaker B,0.9685,0.521,0.406,0.073,"I feel like I just love to watch a lot of like shitty TV, whatever it is. Like, I really love like reality like Love Island UK, you know?"
+114,Speaker B,0.9685,0.521,0.406,0.073,"I feel like I just love to watch a lot of like shitty TV, whatever it is. Like, I really love like reality like Love Island UK, you know?"
+115,Speaker B,0.34,0.305,0.528,0.167,"I'm like, dude, I mean, I've watched like Outer Banks, like all the worst shows, you know?"
+116,Speaker B,0.34,0.305,0.528,0.167,"I'm like, dude, I mean, I've watched like Outer Banks, like all the worst shows, you know?"
+117,Speaker B,0.34,0.305,0.528,0.167,"I'm like, dude, I mean, I've watched like Outer Banks, like all the worst shows, you know?"
+118,Speaker B,0.34,0.305,0.528,0.167,"I'm like, dude, I mean, I've watched like Outer Banks, like all the worst shows, you know?"
+119,Speaker B,0.34,0.305,0.528,0.167,"I'm like, dude, I mean, I've watched like Outer Banks, like all the worst shows, you know?"
+147,Speaker B,0.9034,0.653,0.347,0.0,"So, like just like a a fun little bar, like good vibe."
+148,Speaker B,0.9034,0.653,0.347,0.0,"So, like just like a a fun little bar, like good vibe."
+149,Speaker B,0.0,0.0,1.0,0.0,What about you?
+150,Speaker B,0.0,0.0,1.0,0.0,What about you?
+158,Speaker A,0.6705,0.355,0.645,0.0,driving through the hills is like my favorite thing possible to do.
+159,Speaker A,0.6705,0.355,0.645,0.0,driving through the hills is like my favorite thing possible to do.
+160,Speaker A,0.6705,0.355,0.645,0.0,driving through the hills is like my favorite thing possible to do.
+168,Speaker A,0.7269,0.337,0.663,0.0,[Laugh] Um I actually like should probably know that and I think I do.
+169,Speaker A,0.7269,0.337,0.663,0.0,[Laugh] Um I actually like should probably know that and I think I do.
+170,Speaker A,0.7269,0.337,0.663,0.0,[Laugh] Um I actually like should probably know that and I think I do.
+171,Speaker A,0.6573,0.686,0.314,0.0,So that's great.
+174,Speaker B,0.0,0.0,1.0,0.0,"Oh man, two different things. So I was in Teletubby with my dog."
+175,Speaker B,0.0,0.0,1.0,0.0,"Oh man, two different things. So I was in Teletubby with my dog."
+188,Speaker B,0.7269,0.67,0.33,0.0,Okay. I love that. Um
+194,Speaker B,0.0,0.0,1.0,0.0,What about you?

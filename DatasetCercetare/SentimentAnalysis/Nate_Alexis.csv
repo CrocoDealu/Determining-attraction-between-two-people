@@ -1,0 +1,135 @@
+second,speaker,compound,pos,neu,neg,text
+1,Speaker B,0.0,0.0,1.0,0.0,Hi. What's your name?
+2,Speaker A,0.0,0.0,1.0,0.0,"Um, Alexis."
+3,Speaker B,0.4215,0.483,0.517,0.0,Nice to meet you.
+4,Speaker B,0.0,0.0,1.0,0.0,Nate.
+5,Speaker A,0.2263,0.655,0.345,0.0,Nate. Okay.
+6,Speaker B,0.0,0.0,1.0,0.0,"Where are you from? Uh, we"
+7,Speaker B,0.0,0.0,1.0,0.0,"Where are you from? Uh, we"
+8,Speaker A,0.0,0.0,1.0,0.0,You go to We went over this.
+9,Speaker A,0.0,0.0,1.0,0.0,You go to We went over this.
+10,Speaker B,0.1531,0.211,0.789,0.0,"Yeah, but we can do it again."
+11,Speaker A,0.2263,0.322,0.678,0.0,Okay. I live in Irvine.
+12,Speaker B,0.2263,0.322,0.678,0.0,Okay. I go to SDSU.
+13,Speaker B,0.2263,0.322,0.678,0.0,Okay. I go to SDSU.
+14,Speaker A,0.2263,0.322,0.678,0.0,Okay. I have a question.
+15,Speaker A,0.0,0.0,1.0,0.0,"Say you're out, right?"
+16,Speaker A,0.0,0.0,1.0,0.0,"Say you're out, right?"
+17,Speaker B,0.0,0.0,1.0,0.0,Mhm.
+18,Speaker A,0.0,0.0,1.0,0.0,You go up to talk to her. Mhm. What are you asking for?
+19,Speaker A,0.0,0.0,1.0,0.0,You go up to talk to her. Mhm. What are you asking for?
+20,Speaker A,0.0,0.0,1.0,0.0,You go up to talk to her. Mhm. What are you asking for?
+21,Speaker A,0.6124,0.714,0.286,0.0,"Like, no. Like, wait."
+22,Speaker A,0.6124,0.714,0.286,0.0,"Like, no. Like, wait."
+23,Speaker A,0.6124,0.714,0.286,0.0,"Like, no. Like, wait."
+24,Speaker A,0.4329,0.29,0.71,0.0,"Whoa. Like, what's your Instagram? What's your Snapchat?"
+25,Speaker A,0.4329,0.29,0.71,0.0,"Whoa. Like, what's your Instagram? What's your Snapchat?"
+26,Speaker A,0.4329,0.29,0.71,0.0,"Whoa. Like, what's your Instagram? What's your Snapchat?"
+27,Speaker A,0.4329,0.29,0.71,0.0,"Whoa. Like, what's your Instagram? What's your Snapchat?"
+28,Speaker A,0.168,0.217,0.783,0.0,What's your number? What's your go-to communication?
+29,Speaker A,0.168,0.217,0.783,0.0,What's your number? What's your go-to communication?
+30,Speaker A,0.168,0.217,0.783,0.0,What's your number? What's your go-to communication?
+31,Speaker B,0.1754,0.147,0.772,0.081,"Um, probably number. I feel like I don't use Snapchat. Like that's And if I ask for Instagram, then I'm not really then"
+32,Speaker B,0.1754,0.147,0.772,0.081,"Um, probably number. I feel like I don't use Snapchat. Like that's And if I ask for Instagram, then I'm not really then"
+33,Speaker B,0.1754,0.147,0.772,0.081,"Um, probably number. I feel like I don't use Snapchat. Like that's And if I ask for Instagram, then I'm not really then"
+34,Speaker B,0.1754,0.147,0.772,0.081,"Um, probably number. I feel like I don't use Snapchat. Like that's And if I ask for Instagram, then I'm not really then"
+35,Speaker B,0.1754,0.147,0.772,0.081,"Um, probably number. I feel like I don't use Snapchat. Like that's And if I ask for Instagram, then I'm not really then"
+36,Speaker B,0.1754,0.147,0.772,0.081,"Um, probably number. I feel like I don't use Snapchat. Like that's And if I ask for Instagram, then I'm not really then"
+37,Speaker B,0.1754,0.147,0.772,0.081,"Um, probably number. I feel like I don't use Snapchat. Like that's And if I ask for Instagram, then I'm not really then"
+38,Speaker B,-0.0755,0.0,0.929,0.071,I'm not really feeling you. But how about you? If you if you go up to a guy
+39,Speaker B,-0.0755,0.0,0.929,0.071,I'm not really feeling you. But how about you? If you if you go up to a guy
+40,Speaker B,-0.0755,0.0,0.929,0.071,I'm not really feeling you. But how about you? If you if you go up to a guy
+41,Speaker B,-0.0755,0.0,0.929,0.071,I'm not really feeling you. But how about you? If you if you go up to a guy
+42,Speaker B,-0.0755,0.0,0.929,0.071,I'm not really feeling you. But how about you? If you if you go up to a guy
+43,Speaker A,-0.2235,0.0,0.788,0.212,"I don't usually. Um, yeah. It wouldn't be"
+44,Speaker A,-0.2235,0.0,0.788,0.212,"I don't usually. Um, yeah. It wouldn't be"
+45,Speaker A,-0.2235,0.0,0.788,0.212,"I don't usually. Um, yeah. It wouldn't be"
+46,Speaker A,-0.2235,0.0,0.788,0.212,"I don't usually. Um, yeah. It wouldn't be"
+47,Speaker B,0.0,0.0,1.0,0.0,"But if you did, this is a hypothetical."
+48,Speaker B,0.0,0.0,1.0,0.0,"But if you did, this is a hypothetical."
+49,Speaker A,0.0,0.0,1.0,0.0,If I did. Uhhuh.
+50,Speaker A,0.1002,0.407,0.348,0.245,Yeah. Phone number. I don't like
+51,Speaker A,0.1002,0.407,0.348,0.245,Yeah. Phone number. I don't like
+52,Speaker B,0.2263,0.241,0.759,0.0,I'm going around the same page. Okay.
+53,Speaker B,0.2263,0.241,0.759,0.0,I'm going around the same page. Okay.
+54,Speaker B,0.2263,0.241,0.759,0.0,I'm going around the same page. Okay.
+55,Speaker B,0.34,0.194,0.806,0.0,"Um, what's something that you take pride in about yourself? Oh."
+56,Speaker B,0.34,0.194,0.806,0.0,"Um, what's something that you take pride in about yourself? Oh."
+57,Speaker B,0.34,0.194,0.806,0.0,"Um, what's something that you take pride in about yourself? Oh."
+58,Speaker B,0.34,0.194,0.806,0.0,"Um, what's something that you take pride in about yourself? Oh."
+59,Speaker B,0.34,0.194,0.806,0.0,"Um, what's something that you take pride in about yourself? Oh."
+60,Speaker A,0.2732,0.512,0.488,0.0,Oh my god.
+71,Speaker A,-0.4767,0.15,0.602,0.248,"I have a very small circle, but like I would die for all of them."
+72,Speaker A,-0.4767,0.15,0.602,0.248,"I have a very small circle, but like I would die for all of them."
+73,Speaker A,-0.4767,0.15,0.602,0.248,"I have a very small circle, but like I would die for all of them."
+74,Speaker B,0.4215,1.0,0.0,0.0,Okay. Okay.
+75,Speaker B,0.4215,1.0,0.0,0.0,Okay. Okay.
+97,Speaker A,0.4404,0.592,0.408,0.0,This looks good.
+98,Speaker A,0.4404,0.592,0.408,0.0,This looks good.
+99,Speaker B,0.0,0.0,1.0,0.0,It is. You should try it.
+100,Speaker A,0.296,0.524,0.476,0.0,"I Yeah, maybe."
+101,Speaker B,-0.3612,0.163,0.6,0.237,"No, but I don't know. I used to like have bad hygiene, but I"
+102,Speaker B,-0.3612,0.163,0.6,0.237,"No, but I don't know. I used to like have bad hygiene, but I"
+103,Speaker B,-0.3612,0.163,0.6,0.237,"No, but I don't know. I used to like have bad hygiene, but I"
+104,Speaker B,-0.3612,0.163,0.6,0.237,"No, but I don't know. I used to like have bad hygiene, but I"
+105,Speaker B,-0.3612,0.163,0.6,0.237,"No, but I don't know. I used to like have bad hygiene, but I"
+106,Speaker B,-0.3612,0.163,0.6,0.237,"No, but I don't know. I used to like have bad hygiene, but I"
+107,Speaker B,-0.3612,0.163,0.6,0.237,"No, but I don't know. I used to like have bad hygiene, but I"
+116,Speaker B,0.3182,0.697,0.303,0.0,That's cool.
+117,Speaker B,0.3182,0.697,0.303,0.0,That's cool.
+118,Speaker A,0.0,0.0,1.0,0.0,"Um, I do hair and makeup."
+119,Speaker B,0.0,0.0,1.0,0.0,Do you work?
+120,Speaker B,0.0,0.0,1.0,0.0,I don't currently. I'm a student at SCSU.
+121,Speaker B,0.0,0.0,1.0,0.0,I don't currently. I'm a student at SCSU.
+130,Speaker A,-0.34,0.0,0.676,0.324,"Wait, that's crazy. I don't know."
+131,Speaker A,-0.34,0.0,0.676,0.324,"Wait, that's crazy. I don't know."
+132,Speaker A,0.0,0.0,1.0,0.0,You don't give civil engineering.
+133,Speaker A,0.0,0.0,1.0,0.0,You don't give civil engineering.
+134,Speaker B,0.4939,0.583,0.417,0.0,"Well, well, I am. Oh,"
+135,Speaker B,0.4939,0.583,0.417,0.0,"Well, well, I am. Oh,"
+136,Speaker B,0.6124,0.5,0.5,0.0,you like you like sports at all?
+137,Speaker B,0.6124,0.5,0.5,0.0,you like you like sports at all?
+138,Speaker B,0.6124,0.5,0.5,0.0,you like you like sports at all?
+139,Speaker A,0.7003,0.343,0.657,0.0,"Oh, yeah. I have season tickets for the Kings for hockey. I'm a huge hockey fan."
+140,Speaker A,0.7003,0.343,0.657,0.0,"Oh, yeah. I have season tickets for the Kings for hockey. I'm a huge hockey fan."
+141,Speaker A,0.7003,0.343,0.657,0.0,"Oh, yeah. I have season tickets for the Kings for hockey. I'm a huge hockey fan."
+142,Speaker A,0.7003,0.343,0.657,0.0,"Oh, yeah. I have season tickets for the Kings for hockey. I'm a huge hockey fan."
+143,Speaker A,0.0,0.0,1.0,0.0,"I was born in Canada, so"
+144,Speaker B,0.296,0.688,0.312,0.0,"Oh, yeah."
+145,Speaker B,0.0,0.0,1.0,0.0,Far.
+146,Speaker A,0.0,0.0,1.0,0.0,What about you?
+147,Speaker A,0.0,0.0,1.0,0.0,What about you?
+148,Speaker B,0.3182,0.315,0.685,0.0,I'm not a big hockey fan.
+149,Speaker A,0.5574,0.535,0.465,0.0,"Well, no, I meant like sports."
+150,Speaker B,0.3612,0.455,0.545,0.0,"Um, I like soccer."
+151,Speaker B,0.3612,0.455,0.545,0.0,"Um, I like soccer."
+152,Speaker B,0.5106,0.518,0.482,0.0,Like I grew up playing soccer.
+153,Speaker B,0.5106,0.518,0.482,0.0,Like I grew up playing soccer.
+154,Speaker B,0.5106,0.518,0.482,0.0,Like I grew up playing soccer.
+155,Speaker A,0.34,0.444,0.556,0.0,"Oh, you played soccer?"
+156,Speaker B,0.4383,0.408,0.434,0.157,"Yeah. I wasn't very good, but I played."
+157,Speaker A,0.3182,0.524,0.476,0.0,It's all that matters. Yeah.
+158,Speaker A,0.3612,0.455,0.545,0.0,I like your style.
+159,Speaker A,0.3612,0.455,0.545,0.0,I like your style.
+160,Speaker B,0.6597,0.73,0.27,0.0,Thanks. I like yours.
+161,Speaker B,0.6597,0.73,0.27,0.0,Thanks. I like yours.
+162,Speaker A,0.3612,0.556,0.444,0.0,"Oh, thank you."
+163,Speaker A,0.3612,0.2,0.8,0.0,"So, how many like how many inches do these give you?"
+164,Speaker A,0.3612,0.2,0.8,0.0,"So, how many like how many inches do these give you?"
+165,Speaker A,0.3612,0.2,0.8,0.0,"So, how many like how many inches do these give you?"
+166,Speaker B,0.3612,0.294,0.706,0.0,"Like two, actually. I've gotten tons of"
+167,Speaker B,0.3612,0.294,0.706,0.0,"Like two, actually. I've gotten tons of"
+168,Speaker A,0.8047,0.264,0.736,0.0,"No, I was just like noticing you're really tall, but these also give me So, I was like trying to like So, how tall are you?"
+169,Speaker A,0.8047,0.264,0.736,0.0,"No, I was just like noticing you're really tall, but these also give me So, I was like trying to like So, how tall are you?"
+170,Speaker A,0.8047,0.264,0.736,0.0,"No, I was just like noticing you're really tall, but these also give me So, I was like trying to like So, how tall are you?"
+171,Speaker B,0.2263,0.487,0.513,0.0,I'm 6'2. Okay.
+172,Speaker B,0.2263,0.487,0.513,0.0,I'm 6'2. Okay.
+173,Speaker B,0.2263,0.487,0.513,0.0,I'm 6'2. Okay.
+174,Speaker B,0.9209,0.549,0.451,0.0,But these give me like I'm like 6'5 in these. Which is awesome.
+175,Speaker B,0.9209,0.549,0.451,0.0,But these give me like I'm like 6'5 in these. Which is awesome.
+176,Speaker A,0.4939,0.762,0.238,0.0,Pretty tall.
+177,Speaker A,0.4939,0.762,0.238,0.0,Pretty tall.
+178,Speaker B,0.296,1.0,0.0,0.0,Yeah.
+179,Speaker A,0.0,0.0,1.0,0.0,Do you wear them? Did you wear them to be taller?
+180,Speaker A,0.0,0.0,1.0,0.0,Do you wear them? Did you wear them to be taller?
+188,Speaker A,0.296,1.0,0.0,0.0,Yeah.

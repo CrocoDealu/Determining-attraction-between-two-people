@@ -1,0 +1,84 @@
+second,speaker,compound,pos,neu,neg,text
+0,Speaker A,-0.7717,0.0,0.23,0.77,I'm nervous as hell.
+1,Speaker A,-0.7717,0.0,0.23,0.77,I'm nervous as hell.
+2,Speaker B,-0.5267,0.0,0.227,0.773,You're lying.
+3,Speaker B,0.4404,0.266,0.734,0.0,You just saying that to make me feel better.
+4,Speaker B,0.4404,0.266,0.734,0.0,You just saying that to make me feel better.
+5,Speaker A,0.0,0.0,1.0,0.0,No.
+6,Speaker A,0.3612,0.2,0.8,0.0,"So you working at the gym, do you like working out?"
+7,Speaker A,0.3612,0.2,0.8,0.0,"So you working at the gym, do you like working out?"
+8,Speaker A,0.3612,0.2,0.8,0.0,"So you working at the gym, do you like working out?"
+9,Speaker B,0.6369,0.583,0.417,0.0,I love working out.
+10,Speaker B,0.0772,0.178,0.822,0.0,I want to become a Pilates instructor.
+11,Speaker B,0.0772,0.178,0.822,0.0,I want to become a Pilates instructor.
+12,Speaker B,0.3612,0.455,0.545,0.0,That's like my goal.
+13,Speaker A,0.296,1.0,0.0,0.0,Yeah.
+14,Speaker B,0.3612,0.385,0.615,0.0,Do you like working out?
+15,Speaker A,0.4019,1.0,0.0,0.0,Yes.
+16,Speaker A,0.0,0.0,1.0,0.0,I was actually a personal trainer for a short period of time.
+17,Speaker A,0.0,0.0,1.0,0.0,I was actually a personal trainer for a short period of time.
+18,Speaker A,0.0,0.0,1.0,0.0,I was actually a personal trainer for a short period of time.
+19,Speaker A,0.0,0.0,1.0,0.0,I kind of just did it as a second job.
+20,Speaker A,0.0,0.0,1.0,0.0,I kind of just did it as a second job.
+21,Speaker A,0.4019,0.213,0.787,0.0,Do you have any facts about yourself that might be interesting?
+22,Speaker A,0.4019,0.213,0.787,0.0,Do you have any facts about yourself that might be interesting?
+23,Speaker A,0.4019,0.213,0.787,0.0,Do you have any facts about yourself that might be interesting?
+24,Speaker A,0.4019,0.213,0.787,0.0,Do you have any facts about yourself that might be interesting?
+25,Speaker A,0.4019,0.213,0.787,0.0,Do you have any facts about yourself that might be interesting?
+26,Speaker A,0.4019,0.213,0.787,0.0,Do you have any facts about yourself that might be interesting?
+27,Speaker B,0.0,0.0,1.0,0.0,Mm.
+28,Speaker B,-0.128,0.0,0.667,0.333,That's a tough question.
+29,Speaker B,-0.128,0.0,0.667,0.333,That's a tough question.
+30,Speaker B,0.3612,0.556,0.444,0.0,I like photography.
+31,Speaker B,0.3612,0.556,0.444,0.0,I like photography.
+32,Speaker B,0.0,0.0,1.0,0.0,I do photography.
+33,Speaker B,0.296,1.0,0.0,0.0,Yeah.
+34,Speaker B,0.0,0.0,1.0,0.0,"I haven't been doing it recently,"
+35,Speaker B,0.1154,0.172,0.828,0.0,but I want to get back into it.
+36,Speaker A,0.0,0.0,1.0,0.0,OK.
+37,Speaker A,0.0,0.0,1.0,0.0,I literally have a camera.
+38,Speaker A,0.0,0.0,1.0,0.0,I have a camera that I bought.
+39,Speaker A,0.6124,0.385,0.615,0.0,"It was like $600 camera, and I usually like twice."
+40,Speaker A,0.6124,0.385,0.615,0.0,"It was like $600 camera, and I usually like twice."
+41,Speaker B,0.0,0.0,1.0,0.0,For what?
+42,Speaker A,0.0,0.0,1.0,0.0,Photography.
+43,Speaker A,0.1744,0.175,0.699,0.127,"I tried to make like one video, and it didn't go well."
+44,Speaker A,0.1744,0.175,0.699,0.127,"I tried to make like one video, and it didn't go well."
+45,Speaker A,0.2023,0.371,0.403,0.226,"And I was like, well, this was waste."
+46,Speaker A,0.2023,0.371,0.403,0.226,"And I was like, well, this was waste."
+47,Speaker B,0.0,0.0,1.0,0.0,"Oh, videography, not for photography."
+48,Speaker B,0.0,0.0,1.0,0.0,"Oh, videography, not for photography."
+49,Speaker A,0.2732,0.231,0.769,0.0,"Well, the camera I got, it does both."
+50,Speaker B,0.5106,0.398,0.602,0.0,"Wait, I have a fun question."
+51,Speaker A,0.0,0.0,1.0,0.0,What's up?
+52,Speaker B,0.0,0.0,1.0,0.0,"If you were to be a fruit, what fruit would you be?"
+53,Speaker B,0.0,0.0,1.0,0.0,"If you were to be a fruit, what fruit would you be?"
+54,Speaker A,0.0,0.0,1.0,0.0,A fruit?
+55,Speaker B,0.0,0.0,1.0,0.0,A fruit.
+56,Speaker B,0.0,0.0,1.0,0.0,A fruit.
+57,Speaker A,-0.5423,0.0,0.632,0.368,Is it bad if I say watermelon?
+58,Speaker B,-0.5423,0.0,0.533,0.467,Why would that be bad?
+59,Speaker B,-0.5423,0.0,0.533,0.467,Why would that be bad?
+60,Speaker A,0.4939,1.0,0.0,0.0,[LAUGHTER]
+61,Speaker A,0.4939,1.0,0.0,0.0,[LAUGHTER]
+62,Speaker A,0.0,0.0,1.0,0.0,No.
+63,Speaker A,0.4588,0.333,0.667,0.0,I'll just go with my favorite fruit.
+64,Speaker A,0.4588,0.333,0.667,0.0,I'll just go with my favorite fruit.
+65,Speaker A,0.4588,0.375,0.625,0.0,I'll go with my favorite fruit.
+66,Speaker A,0.0,0.0,1.0,0.0,Probably mango.
+67,Speaker A,0.6369,0.677,0.323,0.0,I love mangoes.
+68,Speaker B,0.3612,0.263,0.737,0.0,I feel like you would be a mango.
+69,Speaker A,0.0,0.0,1.0,0.0,Right?
+70,Speaker A,0.0,0.0,1.0,0.0,"You could find the same mango, probably."
+71,Speaker A,0.0,0.0,1.0,0.0,"You could find the same mango, probably."
+72,Speaker A,0.0,0.0,1.0,0.0,"You could find the same mango, probably."
+73,Speaker B,0.0,0.0,1.0,0.0,I would be cherries.
+74,Speaker A,0.0,0.0,1.0,0.0,Cherries?
+75,Speaker A,0.0,0.0,1.0,0.0,Why cherries?
+76,Speaker B,0.5267,0.353,0.513,0.135,I feel like I'm just biased because they're my favorite fruit.
+77,Speaker B,0.5267,0.353,0.513,0.135,I feel like I'm just biased because they're my favorite fruit.
+78,Speaker A,0.0,0.0,1.0,0.0,That's kind of what the question is.
+79,Speaker B,0.0,0.0,1.0,0.0,What do you think I would be?
+80,Speaker B,0.0,0.0,1.0,0.0,What do you think I would be?
+81,Speaker B,0.0,0.0,1.0,0.0,Oh.
+82,Speaker B,0.4939,1.0,0.0,0.0,[LAUGHTER]

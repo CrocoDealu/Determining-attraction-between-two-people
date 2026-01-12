@@ -1,0 +1,65 @@
+second,speaker,compound,pos,neu,neg,text
+1,Speaker A,0.4404,0.492,0.508,0.0,Good. How are you?
+2,Speaker A,0.4404,0.492,0.508,0.0,Good. How are you?
+3,Speaker B,0.5859,0.792,0.208,0.0,I'm lovely.
+4,Speaker B,0.5859,0.792,0.208,0.0,I'm lovely.
+5,Speaker B,0.0,0.0,1.0,0.0,Is this Is this your first time on a first date?
+6,Speaker B,0.0,0.0,1.0,0.0,Is this Is this your first time on a first date?
+7,Speaker B,0.0,0.0,1.0,0.0,Cuz this is new for me.
+8,Speaker B,0.0,0.0,1.0,0.0,"Never done this before, actually."
+9,Speaker B,0.0,0.0,1.0,0.0,"Never done this before, actually."
+10,Speaker A,-0.2235,0.0,0.679,0.321,"Me neither. Yeah. Oh, really?"
+11,Speaker A,-0.2235,0.0,0.679,0.321,"Me neither. Yeah. Oh, really?"
+12,Speaker B,0.6249,0.421,0.579,0.0,Oh my god. I'm glad that we're newbies together.
+13,Speaker B,0.6249,0.421,0.579,0.0,Oh my god. I'm glad that we're newbies together.
+14,Speaker A,0.296,0.524,0.476,0.0,I know. Yeah.
+15,Speaker A,0.296,0.524,0.476,0.0,I know. Yeah.
+16,Speaker B,0.2263,0.322,0.678,0.0,"Okay. So, talk to me."
+17,Speaker B,0.2263,0.322,0.678,0.0,"Okay. So, talk to me."
+18,Speaker B,0.5719,0.188,0.812,0.0,"Talk to me about Paige. What makes Paige happy? I mean, besides this first date, of course."
+19,Speaker A,0.787,0.634,0.366,0.0,Yeah. You make me so happy.
+20,Speaker A,0.787,0.634,0.366,0.0,Yeah. You make me so happy.
+21,Speaker B,0.6369,0.457,0.543,0.0,"Oh, I love to hear that."
+22,Speaker B,0.6369,0.457,0.543,0.0,"Oh, I love to hear that."
+23,Speaker A,0.9468,0.605,0.395,0.0,Yeah. Okay. What makes me happy? I like dancing. I like eating. I like hanging out with my friends.
+24,Speaker A,0.9468,0.605,0.395,0.0,Yeah. Okay. What makes me happy? I like dancing. I like eating. I like hanging out with my friends.
+25,Speaker A,0.7845,0.58,0.42,0.0,Those cuties over there make me happy.
+26,Speaker A,0.7845,0.58,0.42,0.0,Those cuties over there make me happy.
+27,Speaker B,0.5356,0.241,0.614,0.145,"Oh, that's very nice. You like to shake ass. Got a little bit of a big got a little bit of a big back and she likes"
+28,Speaker B,0.5356,0.241,0.614,0.145,"Oh, that's very nice. You like to shake ass. Got a little bit of a big got a little bit of a big back and she likes"
+29,Speaker B,0.5356,0.241,0.614,0.145,"Oh, that's very nice. You like to shake ass. Got a little bit of a big got a little bit of a big back and she likes"
+30,Speaker B,0.5356,0.241,0.614,0.145,"Oh, that's very nice. You like to shake ass. Got a little bit of a big got a little bit of a big back and she likes"
+31,Speaker B,0.6808,0.444,0.556,0.0,to hang out with her friends. I like that.
+32,Speaker A,0.296,1.0,0.0,0.0,Yeah.
+33,Speaker A,0.296,1.0,0.0,0.0,Yeah.
+34,Speaker B,0.2006,0.118,0.802,0.08,I like a girl who can eat cuz you know on the first date you get a little shy.
+35,Speaker B,0.2006,0.118,0.802,0.08,I like a girl who can eat cuz you know on the first date you get a little shy.
+36,Speaker A,0.296,0.423,0.577,0.0,"Yeah. No, never me."
+37,Speaker A,0.296,0.423,0.577,0.0,"Yeah. No, never me."
+38,Speaker A,0.5859,0.615,0.385,0.0,Okay. Good. I'm an eater.
+39,Speaker B,0.5719,0.485,0.515,0.0,"Yeah. Oh, you like to eat it?"
+40,Speaker B,0.5719,0.485,0.515,0.0,"Yeah. Oh, you like to eat it?"
+41,Speaker B,0.5719,0.485,0.515,0.0,"Yeah. Oh, you like to eat it?"
+42,Speaker B,0.5719,0.485,0.515,0.0,"Yeah. Oh, you like to eat it?"
+43,Speaker A,0.4215,0.559,0.441,0.0,Okay. Okay. Enough of that.
+44,Speaker A,0.4215,0.559,0.441,0.0,Okay. Okay. Enough of that.
+45,Speaker A,0.4215,0.559,0.441,0.0,Okay. Okay. Enough of that.
+46,Speaker A,0.0,0.0,1.0,0.0,I have a question.
+47,Speaker A,-0.1531,0.283,0.461,0.257,Okay. If I'm giving birth and I'm going to die
+48,Speaker A,-0.1531,0.283,0.461,0.257,Okay. If I'm giving birth and I'm going to die
+49,Speaker A,-0.1531,0.283,0.461,0.257,Okay. If I'm giving birth and I'm going to die
+50,Speaker A,-0.1531,0.283,0.461,0.257,Okay. If I'm giving birth and I'm going to die
+51,Speaker A,-0.5994,0.0,0.698,0.302,"or the kids going to die, who are you choosing?"
+52,Speaker A,-0.5994,0.0,0.698,0.302,"or the kids going to die, who are you choosing?"
+53,Speaker B,0.2732,0.116,0.884,0.0,"Well, you know, see, that's a question that I think my wife would know the answer to."
+54,Speaker B,0.2732,0.116,0.884,0.0,"Well, you know, see, that's a question that I think my wife would know the answer to."
+55,Speaker A,-0.5994,0.0,0.719,0.281,"If I'm going to die, how am I supposed to know?"
+56,Speaker A,-0.5994,0.0,0.719,0.281,"If I'm going to die, how am I supposed to know?"
+57,Speaker A,-0.5994,0.0,0.719,0.281,"If I'm going to die, how am I supposed to know?"
+58,Speaker B,0.7564,0.254,0.746,0.0,"Well, I think it's one of those things that in my humble opinion, I would be doing the most to save y'all both because, okay,"
+59,Speaker B,0.7564,0.254,0.746,0.0,"Well, I think it's one of those things that in my humble opinion, I would be doing the most to save y'all both because, okay,"
+60,Speaker B,0.7564,0.254,0.746,0.0,"Well, I think it's one of those things that in my humble opinion, I would be doing the most to save y'all both because, okay,"
+61,Speaker B,0.7564,0.254,0.746,0.0,"Well, I think it's one of those things that in my humble opinion, I would be doing the most to save y'all both because, okay,"
+62,Speaker B,0.7564,0.254,0.746,0.0,"Well, I think it's one of those things that in my humble opinion, I would be doing the most to save y'all both because, okay,"
+63,Speaker B,0.7564,0.254,0.746,0.0,"Well, I think it's one of those things that in my humble opinion, I would be doing the most to save y'all both because, okay,"
+64,Speaker B,0.7564,0.254,0.746,0.0,"Well, I think it's one of those things that in my humble opinion, I would be doing the most to save y'all both because, okay,"

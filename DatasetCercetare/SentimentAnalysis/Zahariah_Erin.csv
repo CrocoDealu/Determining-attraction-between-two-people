@@ -1,0 +1,79 @@
+second,speaker,compound,pos,neu,neg,text
+2,Speaker A,0.0,0.0,1.0,0.0,How have you been?
+3,Speaker A,0.0,0.0,1.0,0.0,How have you been?
+4,Speaker A,0.0,0.0,1.0,0.0,How have you been?
+5,Speaker B,0.7906,0.875,0.125,0.0,Good. Been great.
+6,Speaker B,0.7906,0.875,0.125,0.0,Good. Been great.
+7,Speaker B,0.2263,0.192,0.808,0.0,"So, I have a couple questions for you. Okay."
+8,Speaker B,0.2263,0.192,0.808,0.0,"So, I have a couple questions for you. Okay."
+9,Speaker B,0.2263,0.192,0.808,0.0,"So, I have a couple questions for you. Okay."
+10,Speaker B,0.2732,0.344,0.656,0.0,Do you believe in God?
+11,Speaker B,0.2732,0.344,0.656,0.0,Do you believe in God?
+12,Speaker B,0.2732,0.344,0.656,0.0,Do you believe in God?
+13,Speaker B,0.2732,0.344,0.656,0.0,Do you believe in God?
+14,Speaker A,0.9377,0.464,0.536,0.0,"I believe in like a higher power. I don't know if it's necessarily God, but like I'm feel like I'm a pretty spiritual person. Okay."
+15,Speaker A,0.9377,0.464,0.536,0.0,"I believe in like a higher power. I don't know if it's necessarily God, but like I'm feel like I'm a pretty spiritual person. Okay."
+16,Speaker A,0.9377,0.464,0.536,0.0,"I believe in like a higher power. I don't know if it's necessarily God, but like I'm feel like I'm a pretty spiritual person. Okay."
+17,Speaker A,0.9377,0.464,0.536,0.0,"I believe in like a higher power. I don't know if it's necessarily God, but like I'm feel like I'm a pretty spiritual person. Okay."
+18,Speaker A,0.9377,0.464,0.536,0.0,"I believe in like a higher power. I don't know if it's necessarily God, but like I'm feel like I'm a pretty spiritual person. Okay."
+19,Speaker A,0.0,0.0,1.0,0.0,"Um, but I was raised Catholic and I don't think I continue those beliefs."
+20,Speaker A,0.0,0.0,1.0,0.0,"Um, but I was raised Catholic and I don't think I continue those beliefs."
+21,Speaker A,0.0,0.0,1.0,0.0,"Um, but I was raised Catholic and I don't think I continue those beliefs."
+22,Speaker B,0.2263,1.0,0.0,0.0,Okay.
+23,Speaker A,0.2732,0.344,0.656,0.0,Do you believe in God?
+24,Speaker B,0.4588,0.5,0.5,0.0,I do believe in God. Okay.
+25,Speaker B,0.4588,0.5,0.5,0.0,I do believe in God. Okay.
+26,Speaker B,0.4588,0.5,0.5,0.0,I do believe in God. Okay.
+27,Speaker A,0.0,0.0,1.0,0.0,Is that a deal breaker for you?
+28,Speaker A,0.0,0.0,1.0,0.0,Is that a deal breaker for you?
+29,Speaker B,0.3824,0.178,0.728,0.094,"It's not a dealbreaker for me. would say like I love anybody, but I do think that I'm washed with the blood of Jesus Christ. With that said, I mean like I'm not perfect. So,"
+30,Speaker B,0.3824,0.178,0.728,0.094,"It's not a dealbreaker for me. would say like I love anybody, but I do think that I'm washed with the blood of Jesus Christ. With that said, I mean like I'm not perfect. So,"
+31,Speaker B,0.3824,0.178,0.728,0.094,"It's not a dealbreaker for me. would say like I love anybody, but I do think that I'm washed with the blood of Jesus Christ. With that said, I mean like I'm not perfect. So,"
+32,Speaker B,0.3824,0.178,0.728,0.094,"It's not a dealbreaker for me. would say like I love anybody, but I do think that I'm washed with the blood of Jesus Christ. With that said, I mean like I'm not perfect. So,"
+33,Speaker B,0.3824,0.178,0.728,0.094,"It's not a dealbreaker for me. would say like I love anybody, but I do think that I'm washed with the blood of Jesus Christ. With that said, I mean like I'm not perfect. So,"
+34,Speaker B,0.3824,0.178,0.728,0.094,"It's not a dealbreaker for me. would say like I love anybody, but I do think that I'm washed with the blood of Jesus Christ. With that said, I mean like I'm not perfect. So,"
+35,Speaker B,0.3824,0.178,0.728,0.094,"It's not a dealbreaker for me. would say like I love anybody, but I do think that I'm washed with the blood of Jesus Christ. With that said, I mean like I'm not perfect. So,"
+36,Speaker B,0.0,0.0,1.0,0.0,"I have another question. Uh, what's your drug of choice?"
+37,Speaker B,0.0,0.0,1.0,0.0,"I have another question. Uh, what's your drug of choice?"
+38,Speaker B,0.0,0.0,1.0,0.0,"I have another question. Uh, what's your drug of choice?"
+39,Speaker B,0.0,0.0,1.0,0.0,"I have another question. Uh, what's your drug of choice?"
+45,Speaker A,0.6369,0.512,0.488,0.0,"Um, I love a stimulant."
+46,Speaker A,0.6369,0.512,0.488,0.0,"Um, I love a stimulant."
+47,Speaker A,0.6369,0.512,0.488,0.0,"Um, I love a stimulant."
+48,Speaker A,0.6369,0.512,0.488,0.0,"Um, I love a stimulant."
+49,Speaker A,-0.1832,0.0,0.897,0.103,I I I've tried weed before and I think I just get a little bit paranoid.
+50,Speaker A,-0.1832,0.0,0.897,0.103,I I I've tried weed before and I think I just get a little bit paranoid.
+51,Speaker A,-0.1832,0.0,0.897,0.103,I I I've tried weed before and I think I just get a little bit paranoid.
+52,Speaker A,-0.1832,0.0,0.897,0.103,I I I've tried weed before and I think I just get a little bit paranoid.
+53,Speaker A,-0.1832,0.0,0.897,0.103,I I I've tried weed before and I think I just get a little bit paranoid.
+55,Speaker B,0.0,0.0,1.0,0.0,"Um, same."
+56,Speaker A,0.3182,0.126,0.874,0.0,It only feels fair that you can answer that back if we're going to go at it.
+57,Speaker A,0.3182,0.126,0.874,0.0,It only feels fair that you can answer that back if we're going to go at it.
+58,Speaker B,0.34,0.182,0.748,0.07,"I mean, if I'm honest, like I get paranoid all the time, but I still smoke weed very regularly."
+59,Speaker B,0.34,0.182,0.748,0.07,"I mean, if I'm honest, like I get paranoid all the time, but I still smoke weed very regularly."
+60,Speaker B,0.34,0.182,0.748,0.07,"I mean, if I'm honest, like I get paranoid all the time, but I still smoke weed very regularly."
+61,Speaker B,0.34,0.182,0.748,0.07,"I mean, if I'm honest, like I get paranoid all the time, but I still smoke weed very regularly."
+62,Speaker B,0.34,0.182,0.748,0.07,"I mean, if I'm honest, like I get paranoid all the time, but I still smoke weed very regularly."
+63,Speaker B,0.34,0.182,0.748,0.07,"I mean, if I'm honest, like I get paranoid all the time, but I still smoke weed very regularly."
+84,Speaker A,0.5419,0.275,0.635,0.09,"they're not good at the creative thing, but like just trying. That's what I am."
+85,Speaker A,0.5419,0.275,0.635,0.09,"they're not good at the creative thing, but like just trying. That's what I am."
+86,Speaker A,0.5419,0.275,0.635,0.09,"they're not good at the creative thing, but like just trying. That's what I am."
+87,Speaker A,0.0243,0.18,0.647,0.173,Like I I keep trying things. I'm not good at them.
+88,Speaker A,0.0243,0.18,0.647,0.173,Like I I keep trying things. I'm not good at them.
+89,Speaker A,0.0243,0.18,0.647,0.173,Like I I keep trying things. I'm not good at them.
+90,Speaker A,0.0243,0.18,0.647,0.173,Like I I keep trying things. I'm not good at them.
+99,Speaker B,0.5859,0.444,0.556,0.0,You've had degree of openness. Degree of openness.
+100,Speaker B,0.5859,0.444,0.556,0.0,You've had degree of openness. Degree of openness.
+101,Speaker B,0.5859,0.444,0.556,0.0,You've had degree of openness. Degree of openness.
+102,Speaker B,0.5859,0.444,0.556,0.0,You've had degree of openness. Degree of openness.
+135,Speaker B,0.0,0.0,1.0,0.0,in Hollywood.
+136,Speaker A,0.4019,0.574,0.426,0.0,In Hollywood. Yes.
+137,Speaker A,0.4019,0.574,0.426,0.0,In Hollywood. Yes.
+138,Speaker A,0.6124,0.568,0.27,0.162,What's your best trick?
+139,Speaker A,0.6124,0.568,0.27,0.162,What's your best trick?
+140,Speaker B,0.7579,0.563,0.336,0.101,Best trick? Um maybe like switch heel.
+141,Speaker B,0.7579,0.563,0.336,0.101,Best trick? Um maybe like switch heel.
+142,Speaker A,0.4215,0.432,0.568,0.0,Okay. Okay. Do you remember your question?
+143,Speaker A,0.4215,0.432,0.568,0.0,Okay. Okay. Do you remember your question?
+144,Speaker A,0.4215,0.432,0.568,0.0,Okay. Okay. Do you remember your question?
+145,Speaker A,0.4215,0.432,0.568,0.0,Okay. Okay. Do you remember your question?
