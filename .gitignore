@@ -1,8 +1,13 @@
 DatasetCercetare/
 
 target_person_audio.wav
-/.python-version
+.python-version
+
+.idea 
+.vscode
 
 .venv
+
+
 
 .DS_Store
