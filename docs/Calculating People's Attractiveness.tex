@@ -15,13 +15,12 @@
 
 \section{Abstract}
 \begin{abstract}
-\itshape
-Romantic attraction arises from dynamic interactions between facial expression, body movement, voice, and spoken language, yet most computational approaches examine these cues in isolation or as static summaries \citep{sano2023computational}. This article addresses the problem of predicting romantic interest from short segments of naturalistic dyadic interactions using temporally aligned multimodal behavioral signals.
-
-We present a pipeline that extracts facial Action Units, hand and upper-body movement dynamics, acoustic prosodic features, and sentiment cues from video recordings, synchronized at the second level. These features are modeled as short behavioral sequences using a stacked Long Short-Term Memory (LSTM) network to capture temporal dependencies across modalities. Unlike conventional affect recognition tasks, our target is an explicitly interpersonal outcome: binary romantic attraction toward a specific interaction partner.
-
-Our contributions include (i) a practical multimodal preprocessing framework that aligns visual, vocal, and linguistic signals via participant visibility, (ii) a compact sequence-based representation of expressive behavior, and (iii) a temporal neural model for attraction prediction. Empirical results show that multimodal sequence modeling substantially outperforms static and unimodal baselines, supporting the view that attraction is communicated through dynamic, multimodal behavior rather than isolated cues.
+Romantic attraction arises from dynamic interactions between facial expression, body movement, voice, and spoken language, yet most computational approaches examine these cues in isolation or as static summaries. This article addresses the problem of predicting romantic interest from short segments of naturalistic dyadic interactions using temporally aligned multimodal behavioral signals.We present a pipeline that extracts facial Action Units, hand and upper-body movement dynamics, acoustic prosodic features, and sentiment cues from video recordings, synchronized at the second level. These features are modeled as short behavioral sequences using a stacked Long Short-Term Memory (LSTM) network to capture temporal dependencies across modalities. Unlike conventional affect recognition tasks, our target is an explicitly interpersonal outcome: binary romantic attraction toward a specific interaction partner.Our contributions include (i) a practical multimodal preprocessing framework that aligns visual, vocal, and linguistic signals via participant visibility, (ii) a compact sequence-based representation of expressive behavior, and (iii) a temporal neural model for attraction prediction. Empirical results show that multimodal sequence modeling substantially outperforms static and unimodal baselines, supporting the view that attraction is communicated through dynamic, multimodal behavior rather than isolated cues.
 \end{abstract}
+
+\begin{IEEEkeywords}
+Affective computing, multimodal interaction, romantic attraction, sequence modeling, LSTM, social signal processing.
+\end{IEEEkeywords}
 
 \footnotetext{ACM CCS:  Computing methodologies → Machine learning; Human-centered computing → Affective computing.  AMS MSC: 68T07, 68T10, 62M45.}
 \section{Introduction}

@@ -1,63 +1,64 @@
 \begin{thebibliography}{10}
 
-\bibitem{sano2023computational}
-T.~Sano and H.~Kawabata.
-\newblock A computational approach to investigating facial attractiveness factors using geometric morphometric analysis and deep learning.
-\newblock {\em Scientific Reports}, 13(1):19797, 2023.
-
 \bibitem{didonato2023}
 Theresa DiDonato and Brett Jakubiak.
 \newblock Romantic attraction.
-\newblock In {\em The Science of Romantic Relationships}, pages 123--157. Cambridge University Press, 2023.
+\newblock In {\em The Science of Romantic Relationships}, pages 123--157. Cambridge Univ. Press, Cambridge, U.K., 2023.
 
 \bibitem{schirmer2025}
 A.~Schirmer, M.~Franz, L.~Krismann, V.~Nöring, M.~Große, M.~Mahmut, and I.~Croy.
 \newblock Attraction in every sense: How looks, voice, movement and scent draw us to future lovers and friends.
-\newblock {\em British Journal of Psychology}, 116(3):684--701, 2025.
+\newblock {\em Brit. J. Psychol.}, 116(3):684--701, 2025.
 
 \bibitem{williams2023}
-Megan~Nicole {Williams} and Coren~Lee {Apicella}.
+Megan~Nicole Williams and Coren~Lee Apicella.
 \newblock A test of multimodal communication in humans using 881 judgements of men and women's physical, vocal, and olfactory attractiveness.
 \newblock {\em Heliyon}, 9(6):e16895, 2023.
 
 \bibitem{chang2021}
 A.~Chang, H.~E. Kragness, W.~Tsou, D.~J. Bosnyak, A.~Thiede, and L.~J. Trainor.
 \newblock Body sway predicts romantic interest in speed dating.
-\newblock {\em Social Cognitive and Affective Neuroscience}, 16(1--2):185--192, 2021.
+\newblock {\em Soc. Cogn. Affect. Neurosci.}, 16(1--2):185--192, 2021.
 
 \bibitem{2017multimodalmachinelearningsurvey}
-Tadas Baltrušaitis, Chaitanya Ahuja, and Louis-Philippe Morency.
+Tadas Baltru{\v{s}}aitis, Chaitanya Ahuja, and Louis-Philippe Morency.
 \newblock Multimodal machine learning: A survey and taxonomy.
 \newblock 2017.
+\newblock Preprint of [5].
 
 \bibitem{sherstinsky2022}
 A.~Sherstinsky.
 \newblock Facial expression and body gesture emotion recognition: A systematic review on the use of visual data in affective computing.
-\newblock {\em IEEE Transactions on Affective Computing}, 13(4):1648--1670, 2022.
+\newblock {\em IEEE Trans. Affect. Comput.}, 13(4):1648--1670, 2022.
 
 \bibitem{kraack2023}
 K.~Kraack.
 \newblock A multimodal emotion recognition system: Integrating facial expressions, body movement, speech, and spoken language.
-\newblock {\em arXiv preprint}, 2023.
+\newblock {\em arXiv preprint arXiv:2412.17907}, 2023.
 
 \bibitem{hutto2014vader}
 C.~J. Hutto and Eric Gilbert.
 \newblock Vader: A parsimonious rule-based model for sentiment analysis of social media text.
-\newblock In {\em Proceedings of the International AAAI Conference on Web and Social Media}, volume~8, pages 216--225, 2014.
+\newblock In {\em Proc. Int. AAAI Conf. Web Soc. Media (ICWSM)}, volume~8, pages 216--225, Ann Arbor, MI, USA, 2014.
+
+\bibitem{sano2023computational}
+T.~Sano and H.~Kawabata.
+\newblock A computational approach to investigating facial attractiveness factors using geometric morphometric analysis and deep learning.
+\newblock {\em Sci. Rep.}, 13(1):19797, 2023.
 
 \bibitem{zadeh2017tensorfusionnetworkmultimodal}
 Amir Zadeh, Minghai Chen, Soujanya Poria, Erik Cambria, and Louis-Philippe Morency.
 \newblock Tensor fusion network for multimodal sentiment analysis.
-\newblock 2017.
+\newblock In {\em Proc. Empirical Methods Natural Lang. Process. (EMNLP)}, pages 1103--1114, Copenhagen, Denmark, 2017.
 
 \bibitem{zhao2023swr}
 Z.~Zhao, T.~Gao, H.~Wang, and B.~W. Schuller.
-\newblock Swrr: Feature map classifier based on sliding window attention and high-response feature reuse for multimodal emotion recognition.
-\newblock pages 2433--2437, 2023.
+\newblock {SWRR}: Feature map classifier based on sliding window attention and high-response feature reuse for multimodal emotion recognition.
+\newblock In {\em Proc. Interspeech}, pages 2433--2437, Rhodes Island, Greece, 2023.
 
 \bibitem{schmidt2019}
 R.~M. Schmidt.
-\newblock Recurrent neural networks (rnns): A gentle introduction and overview.
+\newblock Recurrent neural networks ({RNN}s): A gentle introduction and overview.
 \newblock {\em arXiv preprint arXiv:1912.05911}, 2019.
 
 \bibitem{lebois2018}
@@ -67,12 +68,12 @@ L.~A.~M. Lebois, C.~D. Wilson-Mendenhall, W.~K. Simmons, L.~F. Barrett, and L.~W
 
 \bibitem{french2024}
 J.~E. French, L.~J. Bolton, and A.~L. Meltzer.
-\newblock Virtual speed dating: Utilizing online‐meeting platforms to study initial attraction and relationship formation.
-\newblock {\em Personal Relationships}, 31(2):420--444, 2024.
+\newblock Virtual speed dating: Utilizing online-meeting platforms to study initial attraction and relationship formation.
+\newblock {\em Pers. Relat.}, 31(2):420--444, 2024.
 
 \bibitem{haidet2009}
 K.~K. Haidet, J.~Tate, D.~Divirgilio-Thomas, A.~Kolanowski, and M.~B. Happ.
 \newblock Methods to improve reliability of video-recorded behavioral data.
-\newblock {\em Research in Nursing \& Health}, 32(4):465--474, 2009.
+\newblock {\em Res. Nurs. Health}, 32(4):465--474, 2009.
 
 \end{thebibliography}

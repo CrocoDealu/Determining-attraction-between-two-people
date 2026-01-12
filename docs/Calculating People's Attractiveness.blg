@@ -6,47 +6,45 @@ Database file #1: refs.bib
 Warning--I didn't find a database entry for ""
 Warning--empty journal in 2017multimodalmachinelearningsurvey
 Warning--can't use both volume and number fields in hutto2014vader
-Warning--empty journal in zadeh2017tensorfusionnetworkmultimodal
-Warning--empty journal in zhao2023swr
 You've used 15 entries,
             1791 wiz_defined-function locations,
-            536 strings with 6445 characters,
-and the built_in function-call counts, 3813 in all, are:
-= -- 339
+            543 strings with 6507 characters,
+and the built_in function-call counts, 4113 in all, are:
+= -- 382
 > -- 174
-< -- 4
+< -- 5
 + -- 64
 - -- 49
-* -- 271
-:= -- 601
-add.period$ -- 46
+* -- 290
+:= -- 631
+add.period$ -- 47
 call.type$ -- 15
 change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 167
-empty$ -- 354
+cite$ -- 17
+duplicate$ -- 185
+empty$ -- 384
 format.name$ -- 49
-if$ -- 841
+if$ -- 926
 int.to.chr$ -- 0
 int.to.str$ -- 15
 missing$ -- 15
-newline$ -- 78
+newline$ -- 79
 num.names$ -- 15
 pop$ -- 39
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 88
+skip$ -- 99
 stack$ -- 0
-substring$ -- 286
-swap$ -- 44
-text.length$ -- 4
+substring$ -- 326
+swap$ -- 56
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 37
+warning$ -- 2
+while$ -- 40
 width$ -- 17
-write$ -- 162
-(There were 5 warnings)
+write$ -- 171
+(There were 3 warnings)
