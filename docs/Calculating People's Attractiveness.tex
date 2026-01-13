@@ -211,6 +211,7 @@ Our study extends this multimodal perspective in two important ways. First, we m
 
 The obtained results directly address the three research questions posed in this article. 
 
+\subsection{Overall Performance and Temporal Modeling}
 
 \begin{table}[h]
 \centering
@@ -221,25 +222,61 @@ The obtained results directly address the three research questions posed in this
 \textbf{Model} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} \\
 \hline
 Logistic Regression (time-avg.) & 0.747 & 0.916 & 0.710 \\
-Stacked LSTM (sequences) & 0.920 & 0.966 & 0.921 \\
+Stacked LSTM (sequences) & 0.897 & 0.995 & 0.860 \\
 \hline
-\textbf{Absolute Improvement} & +0.173 & +0.050 & +0.211 \\
-\textbf{Relative Improvement} & +23.2\% & +5.5\% & +29.7\% \\
+\textbf{Absolute Improvement} & +0.150 & +0.079 & +0.150 \\
+\textbf{Relative Improvement} & +20.1\% & +8.6\% & +21.1\% \\
 \hline
 \end{tabular}
 \end{table}
 
-\textbf{Regarding RQ1 (predictive power):} The model achieved a validation accuracy of 92\% with precision of 96.6\% and recall of 92.1\% on the positive class (attraction), demonstrating that short multimodal behavioral sequences do contain predictive information about binary romantic attraction \citep{2017multimodalmachinelearningsurvey, kraack2023}.
+\textbf{Regarding RQ1 (predictive power):} The full multimodal model achieved a validation accuracy of 89.7\% with precision of 99.5\% and recall of 86.0\% on the positive class (attraction), demonstrating that short multimodal behavioral sequences do contain predictive information about binary romantic attraction \citep{2017multimodalmachinelearningsurvey, kraack2023}. The exceptionally high precision indicates that when the model predicts attraction, it is correct in nearly all cases, making it particularly suitable for applications where false positives must be minimized. 
 
-\textbf{Regarding RQ2 (temporal modeling):} To assess the value of temporal sequence modeling, we compared the LSTM against a logistic regression baseline using time-averaged features. The baseline achieved an accuracy of 74.7\%, precision of 91.6\%, and recall of 71.0\%. The LSTM model outperformed the baseline by 17.3 percentage points in accuracy (23.2\% relative improvement) and 21.1 percentage points in recall (29.7\% relative improvement), confirming that temporal dependencies across the 15-second windows provide substantial predictive information beyond static feature summaries \citep{schmidt2019, lebois2018}. The particularly large improvement in recall indicates that the LSTM is better at detecting subtle attraction cues that unfold over time, supporting the hypothesis that attraction signals are inherently dynamic and sequential in nature \citep{chang2021}.
+\textbf{Regarding RQ2 (temporal modeling):} To assess the value of temporal sequence modeling, we compared the LSTM against a logistic regression baseline using time-averaged features. The baseline achieved an accuracy of 74.7\%, precision of 91.6\%, and recall of 71.0\%.  The LSTM model outperformed the baseline by 15.0 percentage points in accuracy (20.1\% relative improvement) and 15.0 percentage points in recall (21.1\% relative improvement), confirming that temporal dependencies across the 15-second windows provide substantial predictive information beyond static feature summaries \citep{schmidt2019, lebois2018}. The improvement in recall indicates that the LSTM is better at detecting subtle attraction cues that unfold over time, supporting the hypothesis that attraction signals are inherently dynamic and sequential in nature \citep{chang2021}.
 
-\textbf{Regarding RQ3 (multimodal integration):} While the integrated feature set combining facial, bodily, vocal, and linguistic signals shows promise \citep{didonato2023, schirmer2025}, systematic ablation studies are needed to quantify the relative contribution of each modality and confirm the advantage of multimodal integration over single-channel approaches. 
+\subsection{Multimodal Ablation Study}
 
-However, several limitations should be noted.  First, the dataset exhibits class imbalance (71\% attracted vs. 29\% not attracted), which may influence model predictions. Second, the relatively small validation set (300 samples) limits the strength of generalization claims.  Third, we have not yet conducted the ablation studies necessary to definitively answer RQ3.
+\textbf{Regarding RQ3 (multimodal integration):} To quantify the relative contribution of each modality, we conducted a systematic ablation study by training separate LSTM models on individual feature groups and comparing them to the full multimodal system. Table~\ref{tab:ablation} presents the validation performance of each modality in isolation and in combination. 
 
-Several aspects of the experimental design support the validity of these conclusions. Temporal segmentation and per-second aggregation ensure that predictions are based on dynamic interaction patterns rather than isolated frames \citep{haidet2009}. Participant-level data splitting prevents information leakage between training and validation sets, promoting generalization to unseen individuals. Furthermore, deterministic handling of missing modalities through zero filling avoids introducing artificial correlations via imputation. Together, these design choices strengthen confidence that the reported performance reflects learned multimodal behavioral patterns rather than artifacts of preprocessing or evaluation.
+\begin{table}[h]
+\centering
+\caption{Modality ablation study:  validation performance}
+\label{tab:ablation}
+\begin{tabular}{lcccccc}
+\hline
+\textbf{Modality} & \textbf{Features} & \textbf{Accuracy} & \textbf{F1} & \textbf{Precision} & \textbf{Recall} \\
+\hline
+Hand Gestures & 4 & 0.543 & 0.542 & 0.953 & 0.379 \\
+Action Units & 17 & 0.667 & 0.709 & 0.939 & 0.570 \\
+Audio & 3 & 0.687 & 0.746 & 0.885 & 0.645 \\
+Sentiment & 4 & 0.783 & 0.865 & 0.779 & 0.972 \\
+\hline
+\textbf{All Combined} & \textbf{28} & \textbf{0.897} & \textbf{0.922} & \textbf{0.995} & \textbf{0.860} \\
+\hline
+\end{tabular}
+\end{table}
 
-In conclusion, this work provides preliminary evidence that multimodal, sequence-based modeling offers a promising approach to predicting romantic attraction from short segments of dyadic interaction \citep{kraack2023, lebois2018}. The presented results demonstrate feasibility but also highlight the need for larger, more balanced datasets and more rigorous evaluation protocols.  Future work should include systematic ablation studies, attention-based architectures for interpretability, cross-validation across multiple data splits, and testing on independent datasets \citep{zadeh2017tensorfusionnetworkmultimodal, zhao2023swr}.
+The ablation study reveals several important findings about the structure of attraction signaling in dyadic interactions:
+
+\textbf{Sentiment analysis emerges as the strongest individual predictor,} achieving 78.3\% accuracy and the highest single-modality F1 score of 0.865. Most notably, sentiment features attain 97.2\% recall—substantially higher than any other modality—indicating that linguistic-emotional content is particularly effective at identifying when attraction is present.  This suggests that verbal expressions of interest, positive affect, and conversational alignment play a central role in romantic attraction \citep{didonato2023}. 
+
+\textbf{Audio features demonstrate robust mid-level performance} (68.7\% accuracy, F1 = 0.746) despite using only three acoustic parameters (energy, pitch, speaking rate). This finding aligns with prior work showing that paralinguistic vocal cues—such as prosody modulation and speech timing—convey interpersonal interest independently of linguistic content \citep{schirmer2025}. 
+
+\textbf{Facial action units achieve moderate discriminative power} (66.7\% accuracy, F1 = 0.709) with 17 features capturing smile intensity, eyebrow movements, and other facial expressions. While facial displays are theoretically central to attraction signaling \citep{schmidt2019}, their standalone performance suggests they may be more informative when integrated with other modalities or that certain AUs contribute more than others.
+
+\textbf{Hand gestures show the weakest individual performance} (54.3\% accuracy, F1 = 0.542), barely exceeding chance. The low recall (37.9\%) indicates that hand movement patterns alone rarely signal attraction reliably. However, gestures may still contribute contextual information when combined with other cues \citep{haidet2009}. 
+
+\textbf{Multimodal integration yields substantial performance gains. } The full 28-feature model achieves 89.7\% accuracy and an F1 score of 0.922, representing an 11.4\% improvement over the best single modality (sentiment). Crucially, multimodal fusion increases precision from 77.9\% to 99.5\%—a 27.7\% relative improvement—enabling near-perfect positive prediction accuracy while maintaining competitive recall (86.0\%). This demonstrates that although sentiment analysis alone captures many attraction signals, integrating facial, bodily, and acoustic modalities substantially reduces false positives and provides a more robust predictive model \citep{2017multimodalmachinelearningsurvey, zadeh2017tensorfusionnetworkmultimodal}. 
+
+The complementary nature of the modalities is evident in their precision-recall trade-offs:  sentiment maximizes recall (detecting most attraction cases), while multimodal integration maximizes precision (ensuring high confidence in positive predictions). This pattern suggests that verbal-emotional signals provide broad coverage of attraction indicators, while nonverbal cues (facial expressions, voice, gestures) add specificity and contextual validation \citep{kraack2023, zhao2023swr}.
+
+\subsection{Limitations and Future Work}
+
+Several limitations should be noted.  First, the dataset exhibits class imbalance (71\% attracted vs.  29\% not attracted), which may influence model predictions despite class-weight balancing. Second, the relatively small validation set ($\sim$300 sequences across 18 individuals) limits the strength of generalization claims. Third, while the ablation study quantifies modality contributions, we have not yet examined attention mechanisms or feature-level importance within modalities, which could reveal which specific behavioral cues drive predictions.
+
+Several aspects of the experimental design support the validity of these conclusions. Temporal segmentation and per-second aggregation ensure that predictions are based on dynamic interaction patterns rather than isolated frames \citep{haidet2009}. Participant-level data splitting prevents information leakage between training and validation sets, promoting generalization to unseen individuals. Furthermore, deterministic handling of missing modalities through zero filling avoids introducing artificial correlations via imputation. Together, these design choices strengthen confidence that the reported performance reflects learned multimodal behavioral patterns rather than artifacts of preprocessing or evaluation. 
+
+In conclusion, this work provides evidence that multimodal, sequence-based modeling offers a promising approach to predicting romantic attraction from short segments of dyadic interaction \citep{kraack2023, lebois2018}.  The systematic ablation study confirms that while individual modalities—particularly sentiment and audio—carry substantial predictive power, their integration yields significant performance gains, validating the multimodal hypothesis central to contemporary theories of interpersonal attraction \citep{didonato2023, schirmer2025}. Future work should include attention-based architectures for interpretability \citep{zadeh2017tensorfusionnetworkmultimodal}, cross-validation across multiple data splits, testing on independent datasets, and investigation of feature-level importance within each modality to identify the specific behavioral cues that most reliably signal romantic interest \citep{zhao2023swr}. 
 \section{References}
 
 \bibliographystyle{unsrt}
